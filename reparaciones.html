@@ -51,12 +51,17 @@
     <div class="col-md-12">
 	  <h2>Reparaciones</h2>
 	  <hr></hr>
-		<form class="navbar-form navbar-left" role="search">
+		<form>
 		  <div class="form-group">
-			<input type="text" class="form-control" placeholder="Email">
-			<input type="text" class="form-control" placeholder="Pieza">
-		  </div>
-		  <button type="submit" class="btn btn-default">Submit</button>
+			<input type="email" class="form-control" placeholder="Email para contacto">
+			<input type="text" class="form-control" placeholder="Nombre de la pieza">
+			<label class="control-label">Imagen de la pieza:</label>
+			<input id="input-1" type="file" class="file">
+			<br/>
+			<label for="comment">Descripción:</label>
+			<textarea class="form-control" rows="5" id="comment"></textarea>
+		</div>
+		  <button type="submit" class="btn btn-default">Enviar</button>
 		</form>  
     </div>
   </div>
