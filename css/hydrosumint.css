@@ -1,11 +1,10 @@
-
 #carousel-home .item {
-  height: 300px;
+  height: 400px;
+  background-color: #ffffff;
 }
 
 #carousel-home .item img {
-position: absolute;
-    top: 0;
-    left: 0;
-  min-height: 300px;
+  max-height: 400px;
+  position: relative;
+  margin: auto;
 }
