@@ -56,8 +56,22 @@
 	  </p>
 		<form>
 		  <div class="form-group">
-			<input type="email" class="form-control" placeholder="Email para contacto">
-			<input type="text" class="form-control" placeholder="Nombre de la pieza">
+      <div class="row">
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="Name" name="Nombre" placeholder="Nombre" type="text" required>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="Email" name="Empresa" placeholder="Empresa" type="text" required>
+        </div>
+      </div>
+	        <div class="row">
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="Nombre" name="Telefono" placeholder="Telefono" type="text" required>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="Email" name="Email" placeholder="Email" type="email" required>
+        </div>
+      </div>
 			<label class="control-label">Imagen de la pieza:</label>
 			<input id="input-1" type="file" class="file">
 			<br/>
