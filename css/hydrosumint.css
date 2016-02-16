@@ -1,3 +1,7 @@
+body { 
+  padding-bottom: 70px;
+}
+
 #carousel-home .item {
   height: 400px;
   background-color: #ffffff;
