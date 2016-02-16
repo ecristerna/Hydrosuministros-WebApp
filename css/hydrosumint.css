@@ -8,3 +8,13 @@
   position: relative;
   margin: auto;
 }
+
+.navbar-nav, .navbar-header{
+	font-size: 15px;
+	margin-top:10px;
+}
+
+.container-fluid
+{
+	height:60px;
+}
