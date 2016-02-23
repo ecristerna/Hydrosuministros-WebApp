@@ -18,6 +18,8 @@ body {
 	margin-top:10px;
 }
 
-#navbar-container {
-	height:60px;
+@media only screen and (min-width : 768px) {
+  #navbar-container {
+    height: 60px;
+  }
 }
