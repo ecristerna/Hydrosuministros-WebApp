@@ -3,14 +3,14 @@ body {
 }
 
 #carousel-home .item {
-  height: 400px;
-  background-color: #ffffff;
+    height: 400px;
+    background-color: #ffffff;
 }
 
 #carousel-home .item img {
-  max-height: 400px;
-  position: relative;
-  margin: auto;
+    max-height: 400px;
+    position: relative;
+    margin: auto;
 }
 
 .navbar-nav, .navbar-header{
@@ -23,3 +23,112 @@ body {
     height: 60px;
   }
 }
+
+.container-fluid
+{
+	height:60px;
+}
+
+.navbar {
+    margin: 13px;
+    border-radius: 5px;
+}
+
+.navbar-default {
+    background: #044F67;
+    font-size: 18px;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #ECF0F1;
+}
+
+.navbar-default .navbar-toggle .icon-bar:focus, .navbar-default .navbar-toggle .icon-bar:hover {
+    background-color: #ECF0F1;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+   /* background-color: #FF9900;*/
+    background-color: #00e6b8;
+}
+
+.navbar-default .navbar-brand {
+    color: #ECF0F1;
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+    color: #00e6b8;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #044F67;
+    background-color: #00e6b8;
+}
+
+.navbar-default .navbar-nav>li>a {
+    /*color: #D9CEB2;*/
+    color: #ebebe0;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #00e6b8;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    color: #00e6b8;
+    background-color: #044F67;
+}
+
+.dropdown-menu>li>a {
+    color: #044F67;
+}
+
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+    color: #00e6b8;
+    background-color: #ECF0F1;
+}
+
+/*.dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover {
+    color: #ECF0F1;
+    text-decoration: none;
+    background-color: #00e6b8;
+    outline: 0;
+}
+*/
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+   background-color: #044F67;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu>.active>a,
+.navbar-default .navbar-nav .open .dropdown-menu>.active>a:focus,
+.navbar-default .navbar-nav .open .dropdown-menu>.active>a:hover {
+
+    color: #ECF0F1;
+    text-decoration: none;
+    background-color: #00e6b8;
+    outline: 0;
+
+}
+
+body {
+    color: #044F67;
+    background-color: #ECF0F1;
+}
+
+/*.carousel-caption {
+    background-color: rgba(4,79,103,0.4);
+    border-radius: 5px;
+    padding: 5px;
+    padding-bottom: 25px;
+}
+
+.carousel-caption h3 {
+    color: #ECF0F1;
+    text-shadow:
+            -1px -1px 0 #000,
+            1px -1px 0 #000,
+            -1px 1px 0 #000,
+            1px 1px 0 #000;
+    font-family: "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
+
+} */
