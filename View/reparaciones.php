@@ -23,15 +23,15 @@ include_once('../elements/header.php');
     <div class="col-md-6">
       <h3>Servo Valves</h3>
       <p>
-        Below is a list of Servo valve units we commonly stock and repair. Please contact us if you don't see your unit listed, chances are we can still assist you.
+        Debajo encontrará una lista de las unidades de valvulas servo que tenemos y que reparamos. Si no encuentra su unidad, no dude en contactarnos, posiblemente podemos asistirlo. 
       </p>
 
-      <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+      <div class="panel-group" id="accordion_one" role="tablist" aria-multiselectable="true">
         <div class="panel panel-default">
           
           <div class="panel-heading" role="tab" id="headingOne">
             <h4 class="panel-title">
-              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion_one" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                 Servo Valves
               </a>
             </h4>
@@ -61,14 +61,14 @@ include_once('../elements/header.php');
     <div class="col-md-6">
       <h3>Proportional Valves</h3>
       <p>
-        Below is a list of Proportional valve units we commonly stock and repair. Please contact us if you don't see your unit listed, chances are we can still assist you.
+        Debajo encontrará una lista de las unidades de valvulas proporcionales que tenemos y que reparamos. Si no encuentra su unidad, no dude en contactarnos, posiblemente podemos asistirlo. 
       </p> 
 
-      <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+      <div class="panel-group" id="accordion_two" role="tablist" aria-multiselectable="true">
         <div class="panel panel-default">
           <div class="panel-heading" role="tab" id="headingTwo">
             <h4 class="panel-title">
-              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion_two" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                 Proportional Valves
               </a>
             </h4>
