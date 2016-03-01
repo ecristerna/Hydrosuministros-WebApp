@@ -15,18 +15,12 @@ body {
 
 .navbar-nav, .navbar-header{
 	font-size: 15px;
-	margin-top:10px;
 }
 
 @media only screen and (min-width : 768px) {
   #navbar-container {
     height: 60px;
   }
-}
-
-.container-fluid
-{
-	height:60px;
 }
 
 .navbar {
