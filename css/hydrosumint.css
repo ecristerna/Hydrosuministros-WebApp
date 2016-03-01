@@ -82,13 +82,13 @@ body {
     background-color: #ECF0F1;
 }
 
-/*.dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover {
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover {
     color: #ECF0F1;
     text-decoration: none;
     background-color: #00e6b8;
     outline: 0;
 }
-*/
+
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
    background-color: #044F67;
 }
