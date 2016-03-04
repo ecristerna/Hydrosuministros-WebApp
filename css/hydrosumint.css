@@ -15,6 +15,7 @@ body {
 
 .navbar-nav, .navbar-header{
 	font-size: 15px;
+    margin-top: 60px;
 }
 
 @media only screen and (min-width : 768px) {
@@ -113,6 +114,12 @@ body {
 body {
     color: #044F67;
     background-color: #ECF0F1;
+}
+
+.logo {
+    height: 120px;
+    width: 120px;
+    float: left;
 }
 
 /*.carousel-caption {

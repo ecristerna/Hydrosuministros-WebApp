@@ -4,10 +4,10 @@ include_once('../elements/header.php');
 ?>
 
     <title>Valvulas</title>
-    </head>
 
     <?php include_once('../elements/navbar.php');?>
     <script type="text/javascript">
+        $('#product-nav').addClass("active");
         $('#valves-nav').addClass("active");
     </script>
     <body>

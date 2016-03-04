@@ -3,10 +3,10 @@ $PageTitle="Bombas";
 include_once('../elements/header.php');
 ?>
     <title>Bombas</title>
-    </head>
 
     <?php include_once('../elements/navbar.php');?>
     <script type="text/javascript">
+        $('#product-nav').addClass("active");
         $('#pumps-nav').addClass("active");
     </script>
     <body>
