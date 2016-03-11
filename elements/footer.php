@@ -1,5 +1,5 @@
 <footer>
-    <nav class="navbar navbar-default navbar-fixed-bottom">
+    <nav class="navbar navbar-default">
         <div class="container">
             <p class="navbar-text">Hydrosumintros Inteligentes S.A. de C.V.</p>
             <p class="navbar-text">Número de visitas:</p>

@@ -17,7 +17,7 @@ include_once('../elements/header.php');
         
     <div class="col-md-12">
       <h2>Servicios de Reparación</h2>
-      <hr></hr>
+      <hr>
 
     <div class="row">
     <div class="col-md-6">
@@ -93,8 +93,8 @@ include_once('../elements/header.php');
     </div>
     
     </div>
-    
-    <hr></hr>
+
+    <hr>
 
     <div class="row">
       <p>
@@ -128,9 +128,9 @@ include_once('../elements/header.php');
         </div>
         <button type="submit" class="btn btn-default">Enviar</button>
         </form>  
-    </div>
-  </div>
-
+        </div>
+        </div>
+        </div>
     </body>
 
 <?php
