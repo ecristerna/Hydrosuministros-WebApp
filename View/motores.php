@@ -18,7 +18,8 @@ include_once('../elements/header.php');
             <div class="row">
                 <h1>Motores</h1>
             </div>
-
+            
+            <hr>
 
             <div class="media">
                 <div class="media-left media-middle">

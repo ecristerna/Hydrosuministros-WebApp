@@ -19,6 +19,8 @@ include_once('../elements/header.php');
                 <h1>Válvulas</h1>
             </div>
 
+            <hr>
+
             <div class="media">
                 <div class="media-left media-middle">
                     <a href="#" class="thumbnail">
