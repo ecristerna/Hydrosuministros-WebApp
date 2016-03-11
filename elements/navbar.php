@@ -28,6 +28,8 @@
                 </li>
                 <li id="repairs-nav"><a href="reparaciones.php">Servicios de Reparación</a></li>
                 <li id="inventory-nav"><a href="inventario.php">Inventario</a></li>
+                <li id="registro-nav"><a href="registro.php">Registro</a></li>
+                <li id="login-nav"><a href="login.php">Login</a></li>
 
             </ul>
         </div><!-- /.navbar-collapse -->
