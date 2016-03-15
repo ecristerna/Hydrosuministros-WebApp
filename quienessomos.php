@@ -1,12 +1,12 @@
 <?php
 $PageTitle="QuienesSomos";
-include_once('../elements/header.php');
+include_once('elements/header.php');
 ?>
 
     <title>QuienesSomos</title>
     </head>
 
-    <?php include_once('../elements/navbar.php');?>
+    <?php include_once('elements/navbar.php');?>
     <script type="text/javascript">
         $('#about-nav').addClass("active");
     </script>
@@ -32,5 +32,5 @@ include_once('../elements/header.php');
     </body>
 
 <?php
-include_once('../elements/footer.php');
+include_once('elements/footer.php');
 ?>

@@ -1,11 +1,11 @@
 <?php
 $PageTitle="Inventario";
-include_once('../elements/header.php');
+include_once('elements/header.php');
 ?>
 
     <title>Inventario</title>
 
-    <?php include_once('../elements/navbar.php');?>
+    <?php include_once('elements/navbar.php');?>
     <script type="text/javascript">
         $('#inventory-nav').addClass("active");
     </script>
@@ -48,5 +48,5 @@ include_once('../elements/header.php');
     </body>
 
 <?php
-include_once('../elements/footer.php');
+include_once('elements/footer.php');
 ?>

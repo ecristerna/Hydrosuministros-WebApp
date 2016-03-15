@@ -1,11 +1,11 @@
 <?php
 $PageTitle="Motores";
-include_once('../elements/header.php');
+include_once('elements/header.php');
 ?>
 
     <title>Motores</title>
 
-    <?php include_once('../elements/navbar.php');?>
+    <?php include_once('elements/navbar.php');?>
     <script type="text/javascript">
         $('#product-nav').addClass("active");
         $('#motors-nav').addClass("active");
@@ -18,13 +18,13 @@ include_once('../elements/header.php');
             <div class="row">
                 <h1>Motores</h1>
             </div>
-            
+
             <hr>
 
             <div class="media">
                 <div class="media-left media-middle">
                     <a href="#" class="thumbnail">
-                        <img class="img img-responsive" src="../images/motor.jpeg" style="width: 100%; max-height: 400px;">
+                        <img class="img img-responsive" src="images/motor.jpeg" style="width: 100%; max-height: 400px;">
                     </a>
                 </div>
 
@@ -39,7 +39,7 @@ include_once('../elements/header.php');
             <div class="media">
                 <div class="media-left media-middle">
                     <a href="#" class="thumbnail">
-                        <img class="img img-responsive" src="../images/motor.jpeg" style="width: 100%; max-height: 400px;">
+                        <img class="img img-responsive" src="images/motor.jpeg" style="width: 100%; max-height: 400px;">
                     </a>
                 </div>
 
@@ -58,5 +58,5 @@ include_once('../elements/header.php');
     </body>
 
 <?php
-include_once('../elements/footer.php');
+include_once('elements/footer.php');
 ?>
