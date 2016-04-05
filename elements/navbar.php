@@ -1,7 +1,7 @@
 <nav class="navbar navbar-default">
     <div id="navbar_conatiner" class="container-fluid">
-        <a href="../View/index.php">
-            <img id="logo" class="logo" src="../images/HydroSuministros_HD_LOGO.png" alt="Hydrosuministros Inteligentes" >
+        <a href="index.php">
+            <img id="logo" class="logo" src="images/HydroSuministros_HD_LOGO.png" alt="Hydrosuministros Inteligentes" >
         </a>
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">

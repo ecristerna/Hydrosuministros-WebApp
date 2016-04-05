@@ -1,10 +1,10 @@
 <?php
 $PageTitle="Login";
-include_once('../elements/header.php');
+include_once('elements/header.php');
 ?>
     <title>Login</title>
 
-    <?php include_once('../elements/navbar.php');?>
+    <?php include_once('elements/navbar.php');?>
     <script type="text/javascript">
         $('#login-nav').addClass("active");
     </script>
@@ -18,7 +18,7 @@ include_once('../elements/header.php');
             </div>
 
             <div class="col-md-6 col-md-offset-3">
-                <form>
+                <form method = 'POST'>
                     <div class="form-group">
                         <input type="email" class="form-control" id="email" name="email" placeholder="Correo" required>
                     </div>
@@ -39,5 +39,5 @@ include_once('../elements/header.php');
     </body>
 
 <?php
-include_once('../elements/footer.php');
+include_once('elements/footer.php');
 ?>

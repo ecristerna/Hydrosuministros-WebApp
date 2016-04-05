@@ -1,11 +1,11 @@
 <?php
 $PageTitle="Inicio";
-include_once('../elements/header.php');
+include_once('elements/header.php');
 ?>
     <title>Inicio</title>
     </head>
 
-    <?php include_once('../elements/navbar.php');?>
+    <?php include_once('elements/navbar.php');?>
     <script type="text/javascript">
         $('#index-nav').addClass("active");
     </script>
@@ -24,13 +24,13 @@ include_once('../elements/header.php');
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
                 <div class="item active">
-                    <img class="img img-responsive" src="../images/pump.jpeg" alt="...">
+                    <img class="img img-responsive" src="images/pump.jpeg" alt="...">
                     <div class="carousel-caption">
                         <h3>Hello</h3>
                     </div>
                 </div>
                 <div class="item">
-                    <img class="img img-responsive" src="../images/motor.jpeg" alt="...">
+                    <img class="img img-responsive" src="images/motor.jpeg" alt="...">
                     <div class="carousel-caption">
                         <h3>World!</h3>
                     </div>
@@ -60,5 +60,5 @@ include_once('../elements/header.php');
     </body>
 
 <?php
-include_once('../elements/footer.php');
+include_once('elements/footer.php');
 ?>

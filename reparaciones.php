@@ -1,12 +1,12 @@
 <?php
 $PageTitle="Reparaciones";
-include_once('../elements/header.php');
+include_once('elements/header.php');
 ?>
 
     <title>Reparaciones</title>
     </head>
 
-    <?php include_once('../elements/navbar.php');?>
+    <?php include_once('elements/navbar.php');?>
     <script type="text/javascript">
         $('#repairs-nav').addClass("active");
     </script>
@@ -98,5 +98,5 @@ include_once('../elements/header.php');
     </body>
 
 <?php
-include_once('../elements/footer.php');
+include_once('elements/footer.php');
 ?>

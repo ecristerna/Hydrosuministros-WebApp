@@ -1,10 +1,10 @@
 <?php
 $PageTitle="Registro";
-include_once('../elements/header.php');
+include_once('elements/header.php');
 ?>
     <title>Registro</title>
 
-    <?php include_once('../elements/navbar.php');?>
+    <?php include_once('elements/navbar.php');?>
     <script type="text/javascript">
         $('#registro-nav').addClass("active");
     </script>
@@ -76,5 +76,5 @@ include_once('../elements/header.php');
     </body>
 
 <?php
-include_once('../elements/footer.php');
+include_once('elements/footer.php');
 ?>
