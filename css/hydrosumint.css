@@ -123,12 +123,22 @@ body {
 }
 
 hr {
-
     border: 0;
     height: 1px;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(4, 79, 103, 0.75), rgba(0, 0, 0, 0));
-    /*background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 230, 184, 0.75), rgba(0, 0, 0, 0));*/
+}
+.panel-title {
+    color: #044F67;
+}
 
+.btn-default {
+    background-color: #044F67;
+    color: #ECF0F1;
+}
+
+.btn-default:hover {
+    background-color: #00e6b8;
+    color: #ECF0F1;
 }
 
 /*.carousel-caption {
@@ -138,6 +148,7 @@ hr {
     padding-bottom: 25px;
 }
 */
+
 .carousel-caption h3 {
     color: #ECF0F1;
     text-shadow:
