@@ -26,7 +26,7 @@ include_once('elements/header.php');
                         <input type="password" class="form-control" id="password" name="password" placeholder="Contraseña" required>
                     </div>
                     <div class="form-group">
-                        <button type="submit" class="btn btn-block btn-primary center-block">Iniciar sesión</button>
+                        <button type="submit" class="btn btn-default btn-block center-block">Iniciar sesión</button>
                     </div>
 
                 </form>
