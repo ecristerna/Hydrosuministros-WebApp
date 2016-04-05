@@ -9,7 +9,6 @@ include_once('elements/header.php');
         $('#login-nav').addClass("active");
     </script>
     <body>
-
     <div class="container-fluid">
 
         <div class="col-md-12">
@@ -26,7 +25,7 @@ include_once('elements/header.php');
                         <input type="password" class="form-control" id="password" name="password" placeholder="Contraseña" required>
                     </div>
                     <div class="form-group">
-                        <button type="submit" class="btn btn-default btn-block center-block">Iniciar sesión</button>
+                        <button type="submit" class="btn btn-default btn-block center-block" id="lb">Iniciar sesión</button>
                     </div>
 
                 </form>
@@ -35,14 +34,13 @@ include_once('elements/header.php');
         </div>
 
     </div>
-
     </body>
     <script>
     $( document ).on('ready', function() {
     			
         $("#lb").on("click", function(){
         var jsonObject = {
-            "username" : $("#email").val(),
+            "userName" : $("#email").val(),
             "userPassword" : $("#password").val(),                
         };
 
@@ -54,7 +52,7 @@ include_once('elements/header.php');
             headers: {'Content-Type': 'application/x-www-form-urlencoded'},
             success: function(jsonData) {
                 alert("Bienvenido " + jsonData.username);
-                window.location.href ="index.html";
+                window.location.href ="index.php";
             },
             error: function(errorMsg){
                 alert(errorMsg.statusText);

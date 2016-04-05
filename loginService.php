@@ -1,6 +1,6 @@
 <?php
 	header('Content-type: application/json');
-	$userName = $_POST['username'];
+	$userName = $_POST['userName'];
 	$userPassword = $_POST['userPassword'];
 
 	$servername = "localhost";
@@ -10,7 +10,6 @@
 
 	// Create connection
 	$conn = new mysqli($servername, $username, $password, $dbname);
-	//$conn = new mysqli("localhost", "root", "root", "poidh");
 	
 	// Check connection
 	if ($conn->connect_error) 
@@ -20,10 +19,10 @@
 	}
 	else
 	{
+        //DEPENDE DE LA NUEVA BASE DE DATOS
 		$sql = "SELECT id, username FROM users WHERE email = '$userName' AND password = '$userPassword'";
 		$result = $conn->query($sql);
 
-		//echo $result->num_rows;
 		if ($result->num_rows > 0)
 		{
 			// output data of each row
@@ -41,7 +40,6 @@
 		    }
 				
 		    echo json_encode($response);
-		    //echo json_encode($result->fetch_assoc());
 		}
 		else
 		{
