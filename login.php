@@ -37,6 +37,32 @@ include_once('elements/header.php');
     </div>
 
     </body>
+    <script>
+    $( document ).on('ready', function() {
+    			
+        $("#lb").on("click", function(){
+        var jsonObject = {
+            "username" : $("#email").val(),
+            "userPassword" : $("#password").val(),                
+        };
+
+        $.ajax({
+            type: "POST",
+            url: "loginService.php",
+            dataType: "json",
+            data: jsonObject,
+            headers: {'Content-Type': 'application/x-www-form-urlencoded'},
+            success: function(jsonData) {
+                alert("Bienvenido " + jsonData.username);
+                window.location.href ="index.html";
+            },
+            error: function(errorMsg){
+                alert(errorMsg.statusText);
+            }
+        });
+        }
+    }
+    </script>
 
 <?php
 include_once('elements/footer.php');
