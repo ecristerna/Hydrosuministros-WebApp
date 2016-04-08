@@ -1,5 +1,5 @@
 <footer>
-    <nav class="navbar navbar-default">
+    <nav id="footer" class="navbar navbar-default navbar-fixed-bottom">
         <div class="container">
             <p class="navbar-text">Hydrosuministros Inteligentes S.A. de C.V.</p>
             <p class="navbar-text">Número de visitas:
