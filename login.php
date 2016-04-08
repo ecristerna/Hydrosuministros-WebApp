@@ -8,6 +8,7 @@ include_once('elements/header.php');
     <script type="text/javascript">
         $('#login-nav').addClass("active");
     </script>
+    <script src="js/login.js" type="text/javascript"></script>
     <body>
     <div class="container-fluid">
 
@@ -35,33 +36,6 @@ include_once('elements/header.php');
 
     </div>
     </body>
-    <script>
-    $( document ).on('ready', function() {
-    			
-        $("#lb").on("click", function(){
-        var jsonObject = {
-            "userName" : $("#email").val(),
-            "userPassword" : $("#password").val(),                
-        };
-
-        $.ajax({
-            type: "POST",
-            url: "loginService.php",
-            dataType: "json",
-            data: jsonObject,
-            headers: {'Content-Type': 'application/x-www-form-urlencoded'},
-            success: function(jsonData) {
-                alert("Bienvenido " + jsonData.username);
-                window.location.href ="index.php";
-            },
-            error: function(errorMsg){
-                alert(errorMsg.statusText);
-            }
-        });
-        }
-    }
-    </script>
-
 <?php
 include_once('elements/footer.php');
 ?>
