@@ -10,8 +10,8 @@
 	if ($result['message'] == 'OK') {
 		// save the session
 		session_start();
-		$_SESSION["username"] = $username;
-		$_SESSION['id'] = $row['id'];
+		$_SESSION["username"] = $userName;
+		$_SESSION['id'] = $result['id'];
 
 		//COOKIE
 		setcookie("email",$userName,3600*24*60+time());

@@ -9,6 +9,7 @@ include_once('elements/header.php');
     <script type="text/javascript">
         $('#inventory-nav').addClass("active");
     </script>
+<!-- <script src="js/products.js" type="text/javascript"></script> -->
     <body>
 
     <div class="container-fluid">
@@ -22,7 +23,7 @@ include_once('elements/header.php');
         </div>
 
         <div class="col-md-12">
-            <table class="table table-striped">
+            <table class="table table-striped" id="tableProducts">
                 <thead>
                 <tr>
                     <th>ID</th>
@@ -32,7 +33,7 @@ include_once('elements/header.php');
                 </tr>
                 </thead>
 
-                <tbody>
+                <tbody id="tableProductsBody">
                 <tr>
                     <td>ID</td>
                     <td>Nombre</td>
