@@ -12,13 +12,13 @@ include_once('elements/header.php');
 
     <div class="container-fluid">
 
-        <div class="col-md-12">
+        <div class="col-md-6 col-md-offset-3">
             <div class="row">
-                <h1>Forma de registro</h1>
+                <h1 class="text-center">Forma de registro</h1>
             </div>
 
-            <div class="col-md-6">
-                <form>
+            <div class="col-md-12">
+                <!-- <form action="sendRegistration.php" method="post" enctype="multipart/form-data"> -->
                     <div class="form-group">
                         <label for="nombre">Nombre Completo</label>
                         <input type="text" class="form-control" id="nombre" name="nombre" required>
@@ -43,36 +43,67 @@ include_once('elements/header.php');
                         <label>¿Cómo se enteró de nosotros?</label>
                         <div class="checkbox">
                             <label>
-                              <input type="checkbox" id="anuncio" name="anuncio" required> Anuncio
+                              <input type="checkbox" id="anuncio" name="anuncio"> Anuncio
                             </label>
                         </div>
                         <div class="checkbox">
                             <label>
-                              <input type="checkbox" id="recomendacion" name="recomendacion" required> Recomendación
+                              <input type="checkbox" id="recomendacion" name="recomendacion"> Recomendación
                             </label>
                         </div>
                         <div class="checkbox">
                             <label>
-                              <input type="checkbox" id="internet" name="internet" required> Internet
+                              <input type="checkbox" id="internet" name="internet"> Internet
                             </label>
                         </div>
                         <div class="checkbox">
                             <label>
-                              <input type="checkbox" id="otra" name="otra" required> Otra
+                              <input type="checkbox" id="otra" name="otra"> Otra
                             </label>
                         </div>
                     </div>
                     <div class="form-group">
-                        <button type="submit" class="btn btn-default">Enviar solicitud de registro</button>
+                        <button type="submit" class="btn btn-default" id = "sendEmailButton">Enviar solicitud de registro</button>
                     </div>
-
-                </form>
+                <!-- </form> -->
             </div>
 
         </div>
 
     </div>
 
+    <script type="text/javascript">
+            $(document).on("ready", function() {
+
+                $("#sendEmailButton").on("click", function() {
+                   var parameters = {
+                       "nombre" : $("#nombre").val(),
+                       "empresa" : $("#empresa").val(),
+                       "puesto" : $("#puesto").val(),
+                       "telefono" : $("#telefono").val(),
+                       "email" : $("#email").val(),
+                    };
+
+                    if ($("#nombre").val() != "" || $("#email").val() != "") {
+                        $.ajax({
+                            type: "POST",
+                            url: "sendRegistration.php",
+                            dataType: "json",
+                            data: parameters,
+                            headers: {'Content-Type': 'application/x-www-form-urlencoded'},
+                            success: function(jsonData) {
+                                // alert("Mensaje enviado");
+                            },
+                            error: function(message) {
+                                // alert("Error");
+                            }
+                        });
+                    } else {
+                        alert("Por favor completa todos los campos");
+                    }
+                });
+            });
+        </script>
     </body>
 
 <?php
