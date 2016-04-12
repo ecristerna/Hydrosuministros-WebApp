@@ -27,7 +27,9 @@
                     </ul>
                 </li>
                 <li id="repairs-nav"><a href="reparaciones.php">Servicios de Reparación</a></li>
-                <li id="inventory-nav"><a href="inventario.php">Inventario</a></li>
+                <?php if (isset($_SESSION["username"])) {
+                    echo '<li id="inventory-nav"><a href="inventario.php">Inventario</a></li>';
+                } ?> 
                 <li id="registro-nav" class="hidden-lg hidden-md"><a href="registro.php">Registro</a></li>
                 <li id="login-nav" class="hidden-lg hidden-md"><a href="login.php">Login</a></li>
             </ul>
