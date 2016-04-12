@@ -21,32 +21,40 @@ include_once('elements/header.php');
 
             <hr>
 
-            <div class="media">
-                <div class="media-left media-middle">
-                    <a href="#" class="thumbnail">
-                        <img class="img img-responsive" src="images/valve.jpeg" style="width: 100%; max-height: 400px;">
-                    </a>
+            <div class="row productsrow">
+                <div class="col-md-2">
+                    <img class="img img-responsive siteimages" src="images/valvula1.png" >
                 </div>
 
-                <div class="media-right">
-                    <h4 class="media-heading">Válvula 1</h4>
+                <div class="col-md-10">
+                    <h4>Válvulas</h4>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porttitor orci dui, a eleifend metus consectetur nec. Nullam purus elit, malesuada sed sagittis sit amet, mollis sed justo. Morbi ante lectus, pretium vel accumsan ut, lobortis non mi. Donec faucibus euismod enim at rhoncus. In vehicula sodales egestas. Aenean lobortis, erat eu condimentum iaculis, nunc odio molestie turpis, ut tristique mi arcu et metus. Morbi facilisis risus ut euismod finibus. Fusce facilisis felis in orci dictum, id malesuada nulla facilisis. Etiam dolor purus, ultrices ac rutrum nec, condimentum blandit magna. Integer non convallis nibh. Maecenas molestie ligula non dui efficitur, nec lobortis orci faucibus. Nullam maximus nulla quam. Pellentesque a facilisis sapien. Nam at massa diam.
+                        El correcto funcionamiento de las válvulas es la clave de todo sistema hidráulico. Es por ello que almacenamos y reparamos varios tipos de válvulas, tales como válvulas hidráulicas direccionales, de control de flujo, de control de presión y de alivio entre otras; manejamos varios fabricantes de renombre como Vickers®, Eaton®, Bosch®/Rexroth®, Parker®, Denison®, Double-A®, Racine® y muchos más. Antes de ser entregadas, cada válvula pasa a través de procedimientos sistemáticos de prueba en cumplimiento con las especificaciones OEM, además de seguir nuestro proceso de investigación de mercado para poder ofrecer precios competitivos.
                     </p>
                 </div>
             </div>
 
-            <div class="media">
-                <div class="media-left media-middle">
-                    <a href="#" class="thumbnail">
-                        <img class="img img-responsive" src="images/valve.jpeg" style="width: 100%; max-height: 400px;">
-                    </a>
+            <div class="row productsrow">
+                <div class="col-md-10">
+                    <h4>Válvulas Servo y Proporcionales</h4>
+                    <p>
+                        Estamos orgullosos de proporcionarle a usted la más alta calidad de servicio y producto posible. Esto ha sido evidente en nuestro compromiso de calidad en nuestro laboratorio de reparación de Válvulas Servo y Proporcionales. Este es un laboratorio de ambiente controlado con mesas de trabajo construidas específicamente para probar este tipo de válvulas. Además, nuestros técnicos son entrenados y autorizados por el fabricante, asegurando con ello una línea de reparación superior o componentes ensamblados en el menor tiempo posible. El tiempo de cambio estandar es de 2-3 días o 24 hrs. en entregas prioritarias. Contamos con un almacenaje mayor a 1,000 unidades reconstruidas que pueden ser enviadas el mismo día de fabricantes como Abex®, Atchley®, Atos®, Bosch®/Rexroth®, Denison®, Moog®, MTS®, Oilgear®, Parker®, Pegasus®, Sundstrand® y Vickers®.
+                    </p>
+                </div>
+                <div class="col-md-2">
+                    <img class="img img-responsive siteimages" src="images/valvula2.png" >
+                </div>
+            </div>
+
+            <div class="row productsrow">
+                <div class="col-md-2">
+                    <img class="img img-responsive siteimages" src="images/valvula3.png" >
                 </div>
 
-                <div class="media-right">
-                    <h4 class="media-heading">Válvula 2</h4>
+                <div class="col-md-10">
+                    <h4>Electrónica</h4>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porttitor orci dui, a eleifend metus consectetur nec. Nullam purus elit, malesuada sed sagittis sit amet, mollis sed justo. Morbi ante lectus, pretium vel accumsan ut, lobortis non mi. Donec faucibus euismod enim at rhoncus. In vehicula sodales egestas. Aenean lobortis, erat eu condimentum iaculis, nunc odio molestie turpis, ut tristique mi arcu et metus. Morbi facilisis risus ut euismod finibus. Fusce facilisis felis in orci dictum, id malesuada nulla facilisis. Etiam dolor purus, ultrices ac rutrum nec, condimentum blandit magna. Integer non convallis nibh. Maecenas molestie ligula non dui efficitur, nec lobortis orci faucibus. Nullam maximus nulla quam. Pellentesque a facilisis sapien. Nam at massa diam.
+                        Tenemos la capacidad de repara la electrónica de diferentes modelos de válvulas proporcionales de una variedad importante de fabricantes como Vickers®, Bosch®/Rexroth®, Parker®, Moog®, Atos® y Senison®. Nuestra experiencia y equipamiento le brinda la más alta calidad de reparación posible. Nuestros componentes no dejan nuestras instalaciones sin haber sido probados en forma dinámica con la válvula OEM correcta, asegurando que está optimizada y lista para usarse. Además todas las reparaciones se realizan en casa, minimizando costos y tiempos muertos.
                     </p>
                 </div>
             </div>

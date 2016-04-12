@@ -21,7 +21,7 @@
                 <li id="product-nav" class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Productos <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li id="valves-nav"><a href="valvulas.php">Valvulas</a></li>
+                        <li id="valves-nav"><a href="valvulas.php">Válvulas</a></li>
                         <li id="pumps-nav"><a href="bombas.php">Bombas</a></li>
                         <li id="motors-nav"><a href="motores.php">Motores</a></li>
                     </ul>
