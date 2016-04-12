@@ -159,3 +159,22 @@ hr {
     font-family: "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
 
 }
+
+.indextext, .navbar-nav {
+    font-size: medium;
+}
+
+.indexfeatures {
+    margin-top: 5%;
+}
+
+.indeximages {
+    width: auto;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.indexcolumns {
+    text-align: center;
+}

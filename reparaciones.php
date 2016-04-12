@@ -19,9 +19,9 @@ include_once('elements/header.php');
 
         <div class="row">
         <div class="col-md-6">
-          <h3>Servo Valves</h3>
+          <h3>Válvulas Servo</h3>
           <p>
-            Debajo encontrará una lista de las unidades de valvulas servo que tenemos y que reparamos. Si no encuentra su unidad, no dude en contactarnos, posiblemente podemos asistirlo.
+            Debajo encontrará una lista de las unidades de válvulas servo que tenemos y que reparamos. Si no encuentra su unidad, no dude en contactarnos, posiblemente podemos asistirlo.
           </p>
 
           <div class="panel-group" id="accordion_one" role="tablist" aria-multiselectable="true">
@@ -57,9 +57,9 @@ include_once('elements/header.php');
         </div>
 
         <div class="col-md-6">
-          <h3>Proportional Valves</h3>
+          <h3>Válvulas Proporcionales</h3>
           <p>
-            Debajo encontrará una lista de las unidades de valvulas proporcionales que tenemos y que reparamos. Si no encuentra su unidad, no dude en contactarnos, posiblemente podemos asistirlo.
+            Debajo encontrará una lista de las unidades de válvulas proporcionales que tenemos y que reparamos. Si no encuentra su unidad, no dude en contactarnos, posiblemente podemos asistirlo.
           </p>
 
           <div class="panel-group" id="accordion_two" role="tablist" aria-multiselectable="true">

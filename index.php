@@ -49,11 +49,34 @@ include_once('elements/header.php');
         </div>
 
         <div class="col-md-12">
-            <h1>Hydrosuministros Inteligentes SA de CV</h1>
+            <h1>Hydrosuministros Inteligentes S.A. de C.V.</h1>
+            <h4> LA SOLUCIÓN INTELIGENTE A SUS NECESIDADES DE HIDRÁULICA INDUSTRIAL O MÓVIL </h4>
             <hr>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porttitor orci dui, a eleifend metus consectetur nec. Nullam purus elit, malesuada sed sagittis sit amet, mollis sed justo. Morbi ante lectus, pretium vel accumsan ut, lobortis non mi. Donec faucibus euismod enim at rhoncus. In vehicula sodales egestas. Aenean lobortis, erat eu condimentum iaculis, nunc odio molestie turpis, ut tristique mi arcu et metus. Morbi facilisis risus ut euismod finibus. Fusce facilisis felis in orci dictum, id malesuada nulla facilisis. Etiam dolor purus, ultrices ac rutrum nec, condimentum blandit magna. Integer non convallis nibh. Maecenas molestie ligula non dui efficitur, nec lobortis orci faucibus. Nullam maximus nulla quam. Pellentesque a facilisis sapien. Nam at massa diam.
+            <p class="indextext">
+                Hydrosuministros Inteligentes S.A. de C.V. es una empresa distribuidora de Hydraulex Global, líder en el suministro y reparación de  bombas, motores, válvulas y cilindros para Aplicaciones Hidráulicas Industriales. Durante más de 5 años hemos ofrecido al mercado industrial mexicano servicios confiables y una amplia gama de productos nuevos y remanufacturados de las marcas más reconocidas en el mercado hidráulico con grandes valores agregados.
             </p>
+                <div class="row indexfeatures">
+                    <div class="col-md-3 indexcolumns">
+                        <img class="img img-responsive indeximages" src="images/11warranty.png">
+                        <h4>Excelente fiabilidad</h4>
+                        <p>Es tal la confianza en la calidad de nuestros productos que ofrecemos 18 meses de garantía desde la compra y 12 meses de garantía de instalación.  </p>
+                    </div>
+                    <div class="col-md-3 indexcolumns">
+                        <img class="img img-responsive indeximages" src="images/22quickship.png">
+                        <h4>Disponibilidad inmediata</h4>
+                        <p>Dado nuestro extenso inventario, podemos asegurar que tenemos las partes y refacciones que solicita y que está disponible para ser enviada garantizando un tiempo de entrega casi inmediato. </p>
+                    </div>
+                    <div class="col-md-3 indexcolumns">
+                        <img class="img img-responsive indeximages" src="images/33reman.png" >
+                        <h4>Calidad de remanufactura</h4>
+                        <p>Tenemos un amplio inventario de bombas, motores, cilindros y partes  remanufacturadas, totalmente probadas y construidas en cumpliemiento de la especificación OEM (Original Equipment Manufacturer).</p>
+                    </div>
+                    <div class="col-md-3 indexcolumns">
+                        <img class="img img-responsive indeximages" src="images/44repair.png">
+                        <h4>Reparación de primera clase</h4>
+                        <p>Tenemos la experiencia y el conocimiento para reparar y reconstruir componentes y cilindros encontrados en varias aplicaciones hidráulicas. Incluyendo bombas, motores, válvulas, servo/válvulas proporcionales entre otras.</p>
+                    </div>
+                </div>
         </div>
     </div>
 
