@@ -21,33 +21,28 @@ include_once('elements/header.php');
 
             <hr>
 
-            <div class="media">
-                <div class="media-left media-middle">
-                    <a href="#" class="thumbnail">
-                        <img class="img img-responsive" src="images/motor.jpeg" style="width: 100%; max-height: 400px;">
-                    </a>
+            <div class="row productsrow">
+                <div class="col-md-2">
+                    <img class="img img-responsive siteimages" src="images/motor1.png" >
                 </div>
 
-                <div class="media-right">
-                    <h4 class="media-heading">Motor 1</h4>
+                <div class="col-md-10">
+                    <h4>Motores Orbitales</h4>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porttitor orci dui, a eleifend metus consectetur nec. Nullam purus elit, malesuada sed sagittis sit amet, mollis sed justo. Morbi ante lectus, pretium vel accumsan ut, lobortis non mi. Donec faucibus euismod enim at rhoncus. In vehicula sodales egestas. Aenean lobortis, erat eu condimentum iaculis, nunc odio molestie turpis, ut tristique mi arcu et metus. Morbi facilisis risus ut euismod finibus. Fusce facilisis felis in orci dictum, id malesuada nulla facilisis. Etiam dolor purus, ultrices ac rutrum nec, condimentum blandit magna. Integer non convallis nibh. Maecenas molestie ligula non dui efficitur, nec lobortis orci faucibus. Nullam maximus nulla quam. Pellentesque a facilisis sapien. Nam at massa diam.
+                        Nuestra marca de piezas "Orbital Motors" es su mejor opción de baja velocidad para un motor fe torque alto en un diseño compacto y económico. Usando la tecnología probada de gerolor, estos motores permiten la alta eficiencia, una operación suave y una larga vida de operativa. Los motores vienen equipados con un sello de alta presión del eje y con un rango de desplazamientos, opciones de brida y opciones de eje. Son un remplazo funcional para motores comunes hoy en el mercado como Eaton®/Char-Lynn®, Danfoss®, Prker® y White®.
                     </p>
                 </div>
             </div>
 
-            <div class="media">
-                <div class="media-left media-middle">
-                    <a href="#" class="thumbnail">
-                        <img class="img img-responsive" src="images/motor.jpeg" style="width: 100%; max-height: 400px;">
-                    </a>
-                </div>
-
-                <div class="media-right">
-                    <h4 class="media-heading">Motor 2</h4>
+            <div class="row productsrow">
+                <div class="col-md-10">
+                    <h4>Servo Motores</h4>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porttitor orci dui, a eleifend metus consectetur nec. Nullam purus elit, malesuada sed sagittis sit amet, mollis sed justo. Morbi ante lectus, pretium vel accumsan ut, lobortis non mi. Donec faucibus euismod enim at rhoncus. In vehicula sodales egestas. Aenean lobortis, erat eu condimentum iaculis, nunc odio molestie turpis, ut tristique mi arcu et metus. Morbi facilisis risus ut euismod finibus. Fusce facilisis felis in orci dictum, id malesuada nulla facilisis. Etiam dolor purus, ultrices ac rutrum nec, condimentum blandit magna. Integer non convallis nibh. Maecenas molestie ligula non dui efficitur, nec lobortis orci faucibus. Nullam maximus nulla quam. Pellentesque a facilisis sapien. Nam at massa diam.
+                        Los Servo Motores son usados en aplicaciones industriales como la robótica, maquinaria CNC y manufactura automatizada. Nuestro equipo de especialistas tiene el conocimiento de la industria y componentes necesario para proveer de una reparación de alta calidad en servo motores como Vickers®, AllenBradley®, Bosch®/Rexroth®, Fanuc®, ABB®, Moog®, Pacific Scientific®, Baumuller®, Indramat®, Parker® y Yaskawa® por nombrar algunas. Nuestro proceso involucra calibración e instrumentos de retroalimentación, checando en tiempo, forma angulo de compensación y amplitud. Finalmente, el componente es probado de forma dinámica para asegurar que está en condiciones óptimas para regresar al trabajo.
                     </p>
+                </div>
+                <div class="col-md-2">
+                    <img class="img img-responsive siteimages" src="images/motor2.png" >
                 </div>
             </div>
 

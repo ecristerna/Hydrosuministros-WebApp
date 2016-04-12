@@ -20,36 +20,29 @@ include_once('elements/header.php');
 
             <hr>
 
-            <div class="media">
-                <div class="media-left media-middle">
-                    <a href="#" class="thumbnail">
-                        <img class="img img-responsive" src="images/pump.jpeg" style="width: 100%; max-height: 400px;">
-                    </a>
+            <div class="row productsrow">
+                <div class="col-md-2">
+                    <img class="img img-responsive siteimages" src="images/bomba1.png" >
                 </div>
 
-                <div class="media-right">
-                    <h4 class="media-heading">Bomba 1</h4>
+                <div class="col-md-10">
+                    <h4>Bombas de Pistón y Motores</h4>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porttitor orci dui, a eleifend metus consectetur nec. Nullam purus elit, malesuada sed sagittis sit amet, mollis sed justo. Morbi ante lectus, pretium vel accumsan ut, lobortis non mi. Donec faucibus euismod enim at rhoncus. In vehicula sodales egestas. Aenean lobortis, erat eu condimentum iaculis, nunc odio molestie turpis, ut tristique mi arcu et metus. Morbi facilisis risus ut euismod finibus. Fusce facilisis felis in orci dictum, id malesuada nulla facilisis. Etiam dolor purus, ultrices ac rutrum nec, condimentum blandit magna. Integer non convallis nibh. Maecenas molestie ligula non dui efficitur, nec lobortis orci faucibus. Nullam maximus nulla quam. Pellentesque a facilisis sapien. Nam at massa diam.
+                        Si usted tiene la necesidad de una reparación o está en busca de una unidad nueva o remanufacturada, nuestros conocimientos técnicos así como nuestro vasto inventario nos convierte en su ventanilla única de servicio, ya que manejamos bombas de pistones nuevos y remanufacturados del mercado de accesorios y motores de una gran variedad de fabricantes como Vickers®, Eaton®, Kawasaki®, Rexroth®, Sundstrand®, Linde®, Denison®, Racine®, Parker® y Oilgear®, por nombrar algunos. Nuestras piezas y unidades remanufacuradas son construidas con partes que cumplen o exceden la especificación OEM y son totalmente probadas antes de que dejen nuestras instalaciones. Nuestro inventario y capacidades nos permiten soportar un amplio rango de aplicaciones industriales que van desde equipo pequeño hasta equipos industriales a gran escala.
                     </p>
                 </div>
             </div>
-
-            <div class="media">
-                <div class="media-left media-middle">
-                    <a href="#" class="thumbnail">
-                        <img class="img img-responsive" src="images/pump.jpeg" style="width: 100%; max-height: 400px;">
-                    </a>
-                </div>
-
-                <div class="media-right">
-                    <h4 class="media-heading">Bomba 2</h4>
+            <div class="row productsrow">
+                <div class="col-md-10">
+                    <h4>Bombas de Paleta y Motores</h4>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porttitor orci dui, a eleifend metus consectetur nec. Nullam purus elit, malesuada sed sagittis sit amet, mollis sed justo. Morbi ante lectus, pretium vel accumsan ut, lobortis non mi. Donec faucibus euismod enim at rhoncus. In vehicula sodales egestas. Aenean lobortis, erat eu condimentum iaculis, nunc odio molestie turpis, ut tristique mi arcu et metus. Morbi facilisis risus ut euismod finibus. Fusce facilisis felis in orci dictum, id malesuada nulla facilisis. Etiam dolor purus, ultrices ac rutrum nec, condimentum blandit magna. Integer non convallis nibh. Maecenas molestie ligula non dui efficitur, nec lobortis orci faucibus. Nullam maximus nulla quam. Pellentesque a facilisis sapien. Nam at massa diam.
+                        Hydrosuministros ofrece una gran selección de bombas de paleta y motores tanto en piezas como en unidades remanufacturadas. Esto incluye bombas simples, bombas tandem y bombas triples en una variedad de desplazamientos. bridas de montaje y ejes de entrada, sin mencionar que algunos modelos están disponibles con capacidades "Thru-drive". Fabricantes como Vickers® y Denison®. Usted puede confiar en nosotros para reparar cualquier componente hidráulico industrial incluyendo clásicos y obsoletos.
                     </p>
                 </div>
+                <div class="col-md-2">
+                    <img class="img img-responsive siteimages" src="images/bomba2.png" >
+                </div>
             </div>
-
         </div>
 
     </div>

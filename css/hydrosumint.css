@@ -164,7 +164,7 @@ hr {
     font-size: medium;
 }
 
-.indexfeatures {
+.indexfeatures, .productsrow{
     margin-top: 5%;
 }
 
@@ -177,4 +177,11 @@ hr {
 
 .indexcolumns {
     text-align: center;
+}
+
+.siteimages {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
 }
