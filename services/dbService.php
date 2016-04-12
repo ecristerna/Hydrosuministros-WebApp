@@ -67,4 +67,32 @@ function login($username, $password){
     }
 }
 
+function getAllProducts(){
+    $conn = connect();
+    if ($conn != null) {
+        $sql = "SELECT admProductos.CCODIGOPRODUCTO, admProductos.CNOMBREPRODUCTO,
+	                  admProductos.CDESCRIPCIONPRODUCTO, admProductosFotos.CFOTOPRODUCTO
+                FROM admProductos, admProductosFotos
+                WHERE admProductos.CIDFOTOPRODUCTO = admProductosFotos.CIDFOTOPRODUCTO";
+        $result = $conn->query($sql);
+
+        if ($result->num_rows > 0) {
+            $response = array("message" => "OK");
+            while($row = $result->fetch_assoc()) {
+                $response[] = $row;
+            }
+            $conn->close();
+            return $response;
+        }
+        else {
+            $conn->close();
+            return errors(406);
+        }
+    }
+    else {
+        $conn->close();
+        return errors(500);
+    }
+}
+
 ?>
