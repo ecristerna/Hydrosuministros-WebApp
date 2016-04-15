@@ -1,6 +1,11 @@
 <?php
 $PageTitle="Inventario";
 include_once('elements/header.php');
+if(!isset($_SESSION["username"])) {
+    header("Location: login.php");
+    die();
+}
+
 ?>
 
     <title>Inventario</title>
