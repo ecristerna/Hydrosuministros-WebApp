@@ -1,25 +1,27 @@
 <?php
 	header('Content-type: application/json');
-	require_once __DIR__ . '/dbServices.php';
+	require_once __DIR__ . '/dbService.php';
 
-	$userName = $_POST['userName'];
+	$email = $_POST['email'];
 	$userPassword = $_POST['userPassword'];
 
-	$result = login( $userName, $userPassword);
+	$result = login($email, $userPassword);
 
 	if ($result['message'] == 'OK') {
 		// save the session
 		session_start();
-		$_SESSION["username"] = $userName;
+		$_SESSION["username"] = $result['userName'];
 		$_SESSION['id'] = $result['id'];
+
+		$userName = $result['userName'];
 
 		//COOKIE
 		setcookie("email",$userName,3600*24*60+time());
 
 		$response = array('firstName' => $result['firstName'], 'lastName' => $result['lastName'], 'userName' => $result['userName']);
-		echo json_encode($response);
+		echo json_encode($result);
 	}  else {
-		die(json_encode($result));
+		die(json_encode($result['message']));
 	}
 
 ?>
