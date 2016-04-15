@@ -6,7 +6,7 @@ include_once('elements/header.php');
 
     <?php include_once('elements/navbar.php');?>
     <script type="text/javascript">
-        $('#login-nav').addClass("active");
+        $('.login-nav').addClass("active");
     </script>
     <script src="js/login.js" type="text/javascript"></script>
     <body>

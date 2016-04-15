@@ -6,7 +6,7 @@ include_once('elements/header.php');
 
     <?php include_once('elements/navbar.php');?>
     <script type="text/javascript">
-        $('#registro-nav').addClass("active");
+        $('.registro-nav').addClass("active");
     </script>
     <body>
 
