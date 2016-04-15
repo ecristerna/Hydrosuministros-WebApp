@@ -30,12 +30,16 @@
                 <?php if (isset($_SESSION["username"])) {
                     echo '<li id="inventory-nav"><a href="inventario.php">Inventario</a></li>';
                 } ?> 
-                <li id="registro-nav" class="hidden-lg hidden-md"><a href="registro.php">Registro</a></li>
-                <li id="login-nav" class="hidden-lg hidden-md"><a href="login.php">Login</a></li>
+                <li class="login-nav hidden-lg hidden-md"><a href="login.php">Login</a></li>
+                <li class="registro-nav hidden-lg hidden-md"><a href="registro.php">Registro</a></li>
             </ul>
             <ul class="nav navbar-nav pull-right hidden-sm hidden-xs">
-                <li id="registro-nav" class="pull-right"><a href="registro.php">Registro</a></li>
-                <li id="login-nav" class="pull-right"><a href="login.php">Login</a></li>
+                <?php if (!isset($_SESSION["username"])) {
+                    echo '<li class="login-nav"><a href="login.php">Login</a></li>';
+                    echo '<li class="registro-nav"><a href="registro.php">Registro</a></li>';
+                } else { 
+                    echo '<li id="logout-nav"><a href="logout.php">Logout</a></li>';
+                } ?> 
             </ul>
 
             </ul>

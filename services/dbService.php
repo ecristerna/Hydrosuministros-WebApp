@@ -39,19 +39,18 @@ function errors($type) {
         default:	$header .= "404 Request Not Found";
     }
     header($header);
-    return array('message' => 'ERROR', 'code' => $type);
+    return array('message' => $header, 'code' => $type);
 }
 
-function login($username, $password){
+function login($email, $password){
     $conn = connect();
     if ($conn != null) {
-        $sql = "SELECT firstName, lastName, userName FROM user WHERE username = '$username' AND password = '$password'";
+        $sql = "SELECT * FROM user WHERE email = '$email' AND password = '$password'";
         $result = $conn->query($sql);
 
         if ($result->num_rows > 0) {
             while($row = $result->fetch_assoc()) {
-                $response = array('message' => 'OK','firstName' => $row['firstName'], 'lastName' => $row['lastName']
-                , 'userName' => $row['userName']);
+                $response = array('message' => 'OK', 'id' => $row['id'], 'firstName' => $row['firstName'], 'lastName' => $row['lastName'], 'userName' => $row['userName']);
             }
             $conn->close();
             return $response;
