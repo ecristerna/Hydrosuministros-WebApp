@@ -1,5 +1,4 @@
 <?php
-
 header('Content-type: application/json');
 
 $nombre = $_POST["nombre"];
@@ -8,7 +7,7 @@ $puesto = $_POST["puesto"];
 $telefono = $_POST["telefono"];
 $email = $_POST["email"];
 
-require_once("PHPMailer-master/PHPMailerAutoload.php");
+require "../PHPMailer-master/PHPMailerAutoload.php";
 
 $mail = new PHPMailer;
 
