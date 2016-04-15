@@ -18,7 +18,7 @@ include_once('elements/header.php');
             </div>
 
             <div class="col-md-12">
-                <!-- <form action="sendRegistration.php" method="post" enctype="multipart/form-data"> -->
+                <form id="registerForm" enctype="multipart/form-data">
                     <div class="form-group">
                         <label for="nombre">Nombre Completo</label>
                         <input type="text" class="form-control" id="nombre" name="nombre" required>
@@ -63,9 +63,9 @@ include_once('elements/header.php');
                         </div>
                     </div>
                     <div class="form-group">
-                        <button type="submit" class="btn btn-default" id = "sendEmailButton">Enviar solicitud de registro</button>
+                        <input type="submit" class="btn btn-default" id = "sendEmailButton">
                     </div>
-                <!-- </form> -->
+                </form>
             </div>
 
         </div>
@@ -73,37 +73,31 @@ include_once('elements/header.php');
     </div>
 
     <script type="text/javascript">
-            $(document).on("ready", function() {
+        $("#registerForm").on("submit", function(e) {
+            e.preventDefault();
+            var parameters = {
+               "nombre" : $("#nombre").val(),
+               "empresa" : $("#empresa").val(),
+               "puesto" : $("#puesto").val(),
+               "telefono" : $("#telefono").val(),
+               "email" : $("#email").val()
+            };
 
-                $("#sendEmailButton").on("click", function() {
-                   var parameters = {
-                       "nombre" : $("#nombre").val(),
-                       "empresa" : $("#empresa").val(),
-                       "puesto" : $("#puesto").val(),
-                       "telefono" : $("#telefono").val(),
-                       "email" : $("#email").val(),
-                    };
-
-                    if ($("#nombre").val() != "" || $("#email").val() != "") {
-                        $.ajax({
-                            type: "POST",
-                            url: "sendRegistration.php",
-                            dataType: "json",
-                            data: parameters,
-                            headers: {'Content-Type': 'application/x-www-form-urlencoded'},
-                            success: function(jsonData) {
-                                // alert("Mensaje enviado");
-                            },
-                            error: function(message) {
-                                // alert("Error");
-                            }
-                        });
-                    } else {
-                        alert("Por favor completa todos los campos");
-                    }
-                });
+            $.ajax({
+                type: "POST",
+                url: "services/sendRegistration.php",
+                dataType: "json",
+                data: parameters,
+                headers: {'Content-Type': 'application/x-www-form-urlencoded'},
+                success: function(jsonData) {
+                     alert("Mensaje enviado");
+                },
+                error: function(message) {
+                     alert("Error");
+                }
             });
-        </script>
+        });
+    </script>
     </body>
 
 <?php
