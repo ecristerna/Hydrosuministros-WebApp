@@ -8,6 +8,8 @@
 
 header('Content-type: application/json');
 
+require "../PHPMailer-master/PHPMailerAutoload.php";
+
 $nombreDirectorio = "../images/";
 
 $nombre = $_POST["Nombre"];
@@ -27,9 +29,6 @@ if($imagen === FALSE) {
     $nombreArchivoImagen = time() . "-" . $nombreArchivoImagen;
     move_uploaded_file ($_FILES['imagenPerfil']['tmp_name'], $nombreDirectorio . $nombreArchivoImagen);
 }
-
-
-require_once("PHPMailer-master/PHPMailerAutoload.php");
 
 $mail = new PHPMailer;
 
