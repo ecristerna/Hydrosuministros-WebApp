@@ -85,7 +85,7 @@ include_once('elements/header.php');
 
             $.ajax({
                 type: "POST",
-                url: "sendRegistration.php",
+                url: "services/sendRegistration.php",
                 dataType: "json",
                 data: parameters,
                 headers: {'Content-Type': 'application/x-www-form-urlencoded'},
