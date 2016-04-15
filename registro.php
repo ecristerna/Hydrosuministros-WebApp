@@ -63,7 +63,7 @@ include_once('elements/header.php');
                         </div>
                     </div>
                     <div class="form-group">
-                        <input type="submit" class="btn btn-default" id = "sendEmailButton">Enviar solicitud de registro</button>
+                        <input type="submit" class="btn btn-default" id = "sendEmailButton">
                     </div>
                 </form>
             </div>
