@@ -90,10 +90,10 @@ include_once('elements/header.php');
                 data: parameters,
                 headers: {'Content-Type': 'application/x-www-form-urlencoded'},
                 success: function(jsonData) {
-                     alert("Mensaje enviado");
+                    window.location.replace("envioderegistro.php");
                 },
                 error: function(message) {
-                     alert("Error");
+                    alert("Error en la conexion");
                 }
             });
         });
