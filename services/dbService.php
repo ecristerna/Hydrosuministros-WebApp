@@ -49,9 +49,8 @@ function login($email, $password){
         $result = $conn->query($sql);
 
         if ($result->num_rows > 0) {
-            while($row = $result->fetch_assoc()) {
-                $response = array('message' => 'OK', 'id' => $row['id'], 'firstName' => $row['firstName'], 'lastName' => $row['lastName'], 'userName' => $row['userName']);
-            }
+            $row = $result->fetch_assoc();
+            $response = array('message' => 'OK', 'id' => $row['id'], 'firstName' => $row['firstName'], 'lastName' => $row['lastName'], 'userName' => $row['userName']);
             $conn->close();
             return $response;
         }
