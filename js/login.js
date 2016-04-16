@@ -7,7 +7,7 @@ $( document ).on('ready', function() {
 
         var jsonObject = {
             "email" : $("#email").val(),
-            "userPassword" : $("#password").val(),
+            "userPassword" : $("#password").val()
         };
 
         $.ajax({
@@ -17,8 +17,7 @@ $( document ).on('ready', function() {
             data: jsonObject,
             headers: {'Content-Type': 'application/x-www-form-urlencoded'},
             success: function(jsonData) {
-                alert("Bienvenido " + jsonData.username);
-                window.location.href ="index.php";
+                window.location.href = "index.php";
             },
             error: function(errorMsg){
                 console.log(errorMsg);
