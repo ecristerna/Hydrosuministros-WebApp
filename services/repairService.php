@@ -8,6 +8,8 @@
 
 header('Content-type: application/json');
 
+require "../PHPMailer-master/PHPMailerAutoload.php";
+
 $nombreDirectorio = "../images/";
 
 $nombre = $_POST["Nombre"];
@@ -22,14 +24,11 @@ $nombreArchivoImagen ="";
 if($imagen === FALSE) {
     $imagen = null;
 } else {
-    $nombreArchivoImagen = $_FILES['imagenPerfil']['name'];
+    $nombreArchivoImagen = $_FILES['Imagen']['name'];
     $nombreArchivoImagen = preg_replace("/[\s_]/", "-", $nombreArchivoImagen);
     $nombreArchivoImagen = time() . "-" . $nombreArchivoImagen;
-    move_uploaded_file ($_FILES['imagenPerfil']['tmp_name'], $nombreDirectorio . $nombreArchivoImagen);
+    move_uploaded_file ($_FILES['Imagen']['tmp_name'], $nombreDirectorio . $nombreArchivoImagen);
 }
-
-
-require_once("PHPMailer-master/PHPMailerAutoload.php");
 
 $mail = new PHPMailer;
 

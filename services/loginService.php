@@ -16,12 +16,10 @@
 		$userName = $result['userName'];
 
 		//COOKIE
-		setcookie("email",$userName,3600*24*60+time());
-
-		$response = array('firstName' => $result['firstName'], 'lastName' => $result['lastName'], 'userName' => $result['userName']);
+		setcookie("email", $userName, 3600*24*60 + time());
 		echo json_encode($result);
 	}  else {
-		die(json_encode($result['message']));
+		die(json_encode($result));
 	}
 
 ?>
