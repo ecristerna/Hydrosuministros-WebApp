@@ -1,4 +1,4 @@
-<nav class="navbar navbar-default">
+<nav id="top-navbar" class="navbar navbar-default">
     <div id="navbar_conatiner" class="container-fluid">
         <a href="index.php">
             <img id="logo" class="logo" src="images/HydroSuministros_HD_LOGO.png" alt="Hydrosuministros Inteligentes" >
