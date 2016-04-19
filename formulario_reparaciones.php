@@ -44,7 +44,7 @@ include_once('elements/header.php');
                     </div>
 
                     <label class="control-label">Imagen de la pieza:</label>
-                    <input id="Imagen" type="file" class="file">
+                    <input id="Imagen" name="Imagen" type="file" class="file">
                     <br/>
                     <label for="comment">Descripción:</label>
                     <textarea class="form-control" rows="5" id="comment"></textarea>
