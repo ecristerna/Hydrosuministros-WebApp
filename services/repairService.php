@@ -24,10 +24,10 @@ $nombreArchivoImagen ="";
 if($imagen === FALSE) {
     $imagen = null;
 } else {
-    $nombreArchivoImagen = $_FILES['imagenPerfil']['name'];
+    $nombreArchivoImagen = $_FILES['Imagen']['name'];
     $nombreArchivoImagen = preg_replace("/[\s_]/", "-", $nombreArchivoImagen);
     $nombreArchivoImagen = time() . "-" . $nombreArchivoImagen;
-    move_uploaded_file ($_FILES['imagenPerfil']['tmp_name'], $nombreDirectorio . $nombreArchivoImagen);
+    move_uploaded_file ($_FILES['Imagen']['tmp_name'], $nombreDirectorio . $nombreArchivoImagen);
 }
 
 $mail = new PHPMailer;
