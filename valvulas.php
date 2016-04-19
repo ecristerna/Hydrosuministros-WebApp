@@ -13,7 +13,6 @@ include_once('elements/header.php');
     <body>
 
     <div class="container-fluid">
-
         <div class="col-md-12">
             <div class="row">
                 <h1>Válvulas</h1>
@@ -28,17 +27,17 @@ include_once('elements/header.php');
 
                 <div class="col-md-10">
                     <h4>Válvulas</h4>
-                    <p>
-                        El correcto funcionamiento de las válvulas es la clave de todo sistema hidráulico. Es por ello que almacenamos y reparamos varios tipos de válvulas, tales como válvulas hidráulicas direccionales, de control de flujo, de control de presión y de alivio entre otras; manejamos varios fabricantes de renombre como Vickers®, Eaton®, Bosch®/Rexroth®, Parker®, Denison®, Double-A®, Racine® y muchos más. Antes de ser entregadas, cada válvula pasa a través de procedimientos sistemáticos de prueba en cumplimiento con las especificaciones OEM, además de seguir nuestro proceso de investigación de mercado para poder ofrecer precios competitivos.
+                    <p class="text">
+                        El correcto funcionamiento de las válvulas es la clave del correcto funcionamiento de todo sistema hidráulico. Es por ello que almacenamos y reparamos varios tipos de válvulas, tales como válvulas hidráulicas Direccionales, Control de Flujo, Control de Presión y de Alivio de las marcas líderes en la Industria tales como: Vickers®, Eaton®, Bosch®/Rexroth®, Parker®, Denison®, Double-A®, Racine® y muchos más. Antes de ser entregadas, cada válvula pasa a través de procedimientos sistemáticos de prueba en cumplimiento con las especificaciones del OEM.
                     </p>
                 </div>
             </div>
 
             <div class="row productsrow">
                 <div class="col-md-10">
-                    <h4>Válvulas Servo y Proporcionales</h4>
-                    <p>
-                        Estamos orgullosos de proporcionarle a usted la más alta calidad de servicio y producto posible. Esto ha sido evidente en nuestro compromiso de calidad en nuestro laboratorio de reparación de Válvulas Servo y Proporcionales. Este es un laboratorio de ambiente controlado con mesas de trabajo construidas específicamente para probar este tipo de válvulas. Además, nuestros técnicos son entrenados y autorizados por el fabricante, asegurando con ello una línea de reparación superior o componentes ensamblados en el menor tiempo posible. El tiempo de cambio estandar es de 2-3 días o 24 hrs. en entregas prioritarias. Contamos con un almacenaje mayor a 1,000 unidades reconstruidas que pueden ser enviadas el mismo día de fabricantes como Abex®, Atchley®, Atos®, Bosch®/Rexroth®, Denison®, Moog®, MTS®, Oilgear®, Parker®, Pegasus®, Sundstrand® y Vickers®.
+                    <h4>Servo y Válvulas Proporcionales</h4>
+                    <p class="text">
+                        Estamos orgullosos de proporcionarle a usted la más alta calidad de servicio y producto posible. Esto ha sido evidente en nuestro compromiso de calidad en el laboratorio de reparación de Válvulas Proporcionales y servos. Este es un laboratorio de ambiente controlado con mesas de trabajo construidas específicamente para probar este tipo de válvulas. Además, nuestros técnicos son entrenados y autorizados por el fabricante, asegurando con ello una línea de reparación de calidad superior o componentes ensamblados en el menor tiempo posible. El tiempo de reparación estandar es de 2-3 días o 24 hrs. en entregas prioritarias. Las marcas que manejamos son: Abex®, Atchley®, Atos®, Bosch®/Rexroth®, Denison®, Moog®, MTS®, Oilgear®, Parker®, Pegasus®, Sundstrand® y Vickers®.
                     </p>
                 </div>
                 <div class="col-md-2">
@@ -53,8 +52,8 @@ include_once('elements/header.php');
 
                 <div class="col-md-10">
                     <h4>Electrónica</h4>
-                    <p>
-                        Tenemos la capacidad de repara la electrónica de diferentes modelos de válvulas proporcionales de una variedad importante de fabricantes como Vickers®, Bosch®/Rexroth®, Parker®, Moog®, Atos® y Senison®. Nuestra experiencia y equipamiento le brinda la más alta calidad de reparación posible. Nuestros componentes no dejan nuestras instalaciones sin haber sido probados en forma dinámica con la válvula OEM correcta, asegurando que está optimizada y lista para usarse. Además todas las reparaciones se realizan en casa, minimizando costos y tiempos muertos.
+                    <p class="text">
+                        Tenemos la capacidad de reparar la electrónica (tarjetas controladoras / amplificadores) para los diferentes modelos de válvulas proporcionales: Vickers®, Bosch®/Rexroth®, Parker®, Moog®, Atos® y Senison®. Nuestra experiencia y equipamiento le brinda la más alta calidad de reparación posible. Nuestros componentes no dejan nuestras instalaciones sin haber sido probados en forma dinámica con la válvula OEM correcta, asegurando que está optimizada y lista para usarse. Además todas las reparaciones se realizan en casa, minimizando costos y tiempos muertos.
                     </p>
                 </div>
             </div>

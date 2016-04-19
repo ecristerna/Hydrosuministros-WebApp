@@ -14,13 +14,23 @@ include_once('elements/header.php');
 
     <div class="container-fluid">
         <div class="col-md-12">
-          <h2>Servicios de Reparación</h2>
+          <h1>Servicios de Reparación</h1>
           <hr>
+            <div class="col-md-9">
+                    <h4>Refacciones para Bombas y Motores de Pistones, Paletas  y Engranes</h4>
+                    <p class="text">
+                        Hydrosuministros ofrece una amplia línea de refacciones para Bombas y Motores de Pistones, Paletas y Engranes que cumplen o exceden la especificación OEM. Esto incluye a fabricantes como Kawasaki®, Rexroth®, Sundstrand®, Linde®, Vickers® y Denison®. Tambien almacenamos partes de reemplazo OEM para varios fabricantes importantes: Kawasaki®, Rexroth®, Sundstrand®, Linde®, Vickers, Denison®, Eaton® y muchos más.
+                    </p>
+                    <button type="button" class="btn btn-default repBtn" onclick="location.href='formulario_reparaciones.php';">Envíenos su solicitud de reparación</button>
+                </div>
+            <div class="col-md-3">
+                <img class="img img-responsive siteimages" src="images/reemplazos.jpg" >
+            </div>
 
         <div class="row">
         <div class="col-md-6">
           <h3>Válvulas Servo</h3>
-          <p>
+          <p class="text">
             Debajo encontrará una lista de las unidades de válvulas servo que tenemos y que reparamos. Si no encuentra su unidad, no dude en contactarnos, posiblemente podemos asistirlo.
           </p>
 
@@ -58,7 +68,7 @@ include_once('elements/header.php');
 
         <div class="col-md-6">
           <h3>Válvulas Proporcionales</h3>
-          <p>
+          <p class="text">
             Debajo encontrará una lista de las unidades de válvulas proporcionales que tenemos y que reparamos. Si no encuentra su unidad, no dude en contactarnos, posiblemente podemos asistirlo.
           </p>
 
@@ -87,12 +97,6 @@ include_once('elements/header.php');
               </div>
             </div>
           </div>
-
-        </div>
-        </div>
-            <button type="button" class="btn btn-default" onclick="location.href='formulario_reparaciones.php';">Envíenos su solicitud de reparación</button>
-
-
         </div>
     </div>
     </body>
