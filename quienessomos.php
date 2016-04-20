@@ -14,7 +14,6 @@ include_once('elements/header.php');
 
     <div class="container-fluid">
         <div class="col-md-12">
-            <h1>Hydrosuministros Inteligentes SA de CV</h1>
             <h2>Información acerca de la empresa</h2>
             <hr>
             <p class = "text">

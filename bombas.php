@@ -15,7 +15,7 @@ include_once('elements/header.php');
 
         <div class="col-md-12">
             <div class="row">
-                <h1>Bombas</h1>
+                <h2>Bombas</h2>
             </div>
 
             <hr>

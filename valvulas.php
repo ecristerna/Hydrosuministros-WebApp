@@ -15,7 +15,7 @@ include_once('elements/header.php');
     <div class="container-fluid">
         <div class="col-md-12">
             <div class="row">
-                <h1>Válvulas</h1>
+                <h2>Válvulas</h2>
             </div>
 
             <hr>

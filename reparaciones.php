@@ -14,7 +14,7 @@ include_once('elements/header.php');
 
     <div class="container-fluid">
         <div class="col-md-12">
-          <h1>Servicios de Reparación</h1>
+          <h2>Servicios de Reparación</h2>
           <hr>
             <div class="col-md-9">
                     <h4>Refacciones para Bombas y Motores de Pistones, Paletas  y Engranes</h4>
@@ -29,7 +29,7 @@ include_once('elements/header.php');
 
         <div class="row">
         <div class="col-md-6">
-          <h3>Válvulas Servo</h3>
+          <h4>Válvulas Servo</h4>
           <p class="text">
             Debajo encontrará una lista de las unidades de válvulas servo que tenemos y que reparamos. Si no encuentra su unidad, no dude en contactarnos, posiblemente podemos asistirlo.
           </p>
@@ -67,7 +67,7 @@ include_once('elements/header.php');
         </div>
 
         <div class="col-md-6">
-          <h3>Válvulas Proporcionales</h3>
+          <h4>Válvulas Proporcionales</h4>
           <p class="text">
             Debajo encontrará una lista de las unidades de válvulas proporcionales que tenemos y que reparamos. Si no encuentra su unidad, no dude en contactarnos, posiblemente podemos asistirlo.
           </p>
