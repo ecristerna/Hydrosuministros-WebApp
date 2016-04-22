@@ -16,6 +16,8 @@ include_once('elements/header.php');
         <div class="col-md-12">
           <h2>Servicios de Reparación</h2>
           <hr>
+
+          <div class="row">
             <div class="col-md-9">
                     <h4>Refacciones para Bombas y Motores de Pistones, Paletas  y Engranes</h4>
                     <p class="text">
@@ -26,6 +28,7 @@ include_once('elements/header.php');
             <div class="col-md-3">
                 <img class="img img-responsive siteimages" src="images/reemplazos.jpg" >
             </div>
+          </div>
 
         <div class="row">
         <div class="col-md-6">
