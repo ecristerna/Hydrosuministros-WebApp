@@ -39,9 +39,9 @@ include_once('elements/header.php');
 
           <div class="panel-group" id="accordion_one" role="tablist" aria-multiselectable="true">
             <div class="panel panel-default">
-
-              <div class="panel-heading" role="tab" id="headingOne">
-                <h4 class="panel-title">
+                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion_one" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                    <div class="panel-heading" role="tab" id="headingOne">
+                        <h4 class="panel-title">
                     Servoválvulas
                 </h4>
               </div>
