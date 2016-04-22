@@ -74,16 +74,16 @@ include_once('elements/header.php');
             Debajo encontrará una lista de las unidades de válvulas proporcionales que tenemos y que reparamos. Si no encuentra su unidad, no dude en contactarnos, posiblemente podemos asistirlo.
           </p>
 
-          <div class="panel-group" id="accordion_two" role="tablist" aria-multiselectable="true">
-            <div class="panel panel-default">
+            <div class="panel-group" id="accordion_two" role="tablist" aria-multiselectable="true">
+                <div class="panel panel-default">
 
-            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion_two" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-              <div class="panel-heading" role="tab" id="headingTwo">
-                <h4 class="panel-title">
-                    Válvulas Proporcionales
-                </h4>
-              </div>
-            </a>
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion_two" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <div class="panel-heading" role="tab" id="headingTwo">
+                            <h4 class="panel-title">
+                                Proportional Valves
+                            </h4>
+                        </div>
+                    </a>
 
               <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
                 <div class="panel-body">
