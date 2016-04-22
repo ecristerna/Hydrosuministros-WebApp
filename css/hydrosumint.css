@@ -159,7 +159,11 @@ hr {
 
 }
 
-.indextext, .navbar-nav {
+.text {
+    color: #02212B;
+}
+
+.text, .navbar-nav {
     font-size: medium;
 }
 
@@ -183,4 +187,13 @@ hr {
     max-width: 100%;
     height: auto;
     margin: auto;
+}
+
+h1 , h2, h3 , h4 , h5 , h6 {
+    color : #045773;
+}
+
+.repBtn {
+    margin: 10px;
+    margin-left: 0px;
 }
