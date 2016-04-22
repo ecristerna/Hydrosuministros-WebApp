@@ -16,6 +16,8 @@ include_once('elements/header.php');
         <div class="col-md-12">
           <h2>Servicios de Reparación</h2>
           <hr>
+
+          <div class="row">
             <div class="col-md-9">
                     <h4>Refacciones para Bombas y Motores de Pistones, Paletas  y Engranes</h4>
                     <p class="text">
@@ -26,6 +28,7 @@ include_once('elements/header.php');
             <div class="col-md-3">
                 <img class="img img-responsive siteimages" src="images/reemplazos.jpg" >
             </div>
+          </div>
 
         <div class="row">
         <div class="col-md-6">
@@ -37,13 +40,13 @@ include_once('elements/header.php');
           <div class="panel-group" id="accordion_one" role="tablist" aria-multiselectable="true">
             <div class="panel panel-default">
 
+            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion_one" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
               <div class="panel-heading" role="tab" id="headingOne">
                 <h4 class="panel-title">
-                  <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion_one" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                     Servo Valves
-                  </a>
                 </h4>
               </div>
+            </a>
 
               <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
                 <div class="panel-body">
@@ -74,13 +77,15 @@ include_once('elements/header.php');
 
           <div class="panel-group" id="accordion_two" role="tablist" aria-multiselectable="true">
             <div class="panel panel-default">
+
+            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion_two" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
               <div class="panel-heading" role="tab" id="headingTwo">
                 <h4 class="panel-title">
-                  <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion_two" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                     Proportional Valves
-                  </a>
                 </h4>
               </div>
+            </a>
+
               <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
                 <div class="panel-body">
                   <dl>

@@ -64,9 +64,11 @@ $mail->isHTML(true);                                  // Set email format to HTM
 
 $mail->AddEmbeddedImage($target_file, "my-attach", $target_file);
 $mail->Subject = "Solicitud de reparacion";
-$mail->Body    = "Nombre: " . $nombre . "\n" . "Empresa: " . $empresa . "\n" .  "Telefono: " . $telefono .
+$mail->Body    = "Nombre: " . $nombre . "\n" . "Empresa: " . $empresa . "\n" .  "Telefono: " . $telefono . "\n" .
+    "Correo: " . $email . "\n" .
     'Imagen: <img alt="PHPMailer" src="cid:my-attach">';
-$mail->AltBody = "Nombre: " . $nombre . "\n" . "Empresa: " . $empresa . "\n" . "Telefono: " . $telefono.
+$mail->AltBody = "Nombre: " . $nombre . "\n" . "Empresa: " . $empresa . "\n" . "Telefono: " . $telefono.  "\n" .
+    "Correo: " . $email . "\n" .
     'Imagen: <img alt="PHPMailer" src="cid:my-attach">';;
 
 if(!$mail->send()) {
@@ -76,4 +78,6 @@ if(!$mail->send()) {
     echo json_encode("Message has been sent");
 }
 
+header("Location: reparaciones.php");
+die();
 ?>
