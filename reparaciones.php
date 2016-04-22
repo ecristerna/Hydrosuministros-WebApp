@@ -15,7 +15,8 @@ include_once('elements/header.php');
     <div class="container-fluid">
         <div class="col-md-12">
           <h2>Servicios de Reparación</h2>
-          <hr>
+            <h4> CONVERTIMOS TU SCRAPP EN MATERIAL PRODUCTIVO REDUCIENDO TUS COSTOS DE MANTENIMIENTO </h4>
+            <hr>
             <div class="col-md-9">
                     <h4>Refacciones para Bombas y Motores de Pistones, Paletas  y Engranes</h4>
                     <p class="text">
@@ -29,7 +30,7 @@ include_once('elements/header.php');
 
         <div class="row">
         <div class="col-md-6">
-          <h4>Válvulas Servo</h4>
+          <h4>Servoválvulas</h4>
           <p class="text">
             Debajo encontrará una lista de las unidades de válvulas servo que tenemos y que reparamos. Si no encuentra su unidad, no dude en contactarnos, posiblemente podemos asistirlo.
           </p>
@@ -40,7 +41,7 @@ include_once('elements/header.php');
               <div class="panel-heading" role="tab" id="headingOne">
                 <h4 class="panel-title">
                   <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion_one" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                    Servo Valves
+                    Servoválvulas
                   </a>
                 </h4>
               </div>
@@ -77,7 +78,7 @@ include_once('elements/header.php');
               <div class="panel-heading" role="tab" id="headingTwo">
                 <h4 class="panel-title">
                   <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion_two" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    Proportional Valves
+                      Válvulas Proporcionales
                   </a>
                 </h4>
               </div>
