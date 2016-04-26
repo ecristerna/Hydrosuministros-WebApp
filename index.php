@@ -25,15 +25,9 @@ include_once('elements/header.php');
             <div class="carousel-inner" role="listbox">
                 <div class="item active">
                     <img class="img img-responsive" src="images/pump.jpeg" alt="...">
-                    <div class="carousel-caption">
-                        <h3>Hello</h3>
-                    </div>
                 </div>
                 <div class="item">
                     <img class="img img-responsive" src="images/motor.jpeg" alt="...">
-                    <div class="carousel-caption">
-                        <h3>World!</h3>
-                    </div>
                 </div>
             </div>
 
