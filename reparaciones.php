@@ -80,7 +80,7 @@ include_once('elements/header.php');
                     <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion_two" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                         <div class="panel-heading" role="tab" id="headingTwo">
                             <h4 class="panel-title">
-                                Proportional Valves
+                                Válvulas Proporcionales
                             </h4>
                         </div>
                     </a>
