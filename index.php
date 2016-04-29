@@ -24,10 +24,19 @@ include_once('elements/header.php');
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
                 <div class="item active">
-                    <img class="img img-responsive" src="images/pump.jpeg" alt="...">
+                    <img class="img img-responsive" src="images/MotoresArreglada.png" alt="...">
                 </div>
                 <div class="item">
-                    <img class="img img-responsive" src="images/motor.jpeg" alt="...">
+                    <img class="img img-responsive" src="images/paletasArreglada.png" alt="...">
+                </div>
+                <div class="item">
+                    <img class="img img-responsive" src="images/pistonesArreglada.png" alt="...">
+                </div>
+                <div class="item">
+                    <img class="img img-responsive" src="images/reparacionesArreglada.png" alt="...">
+                </div>
+                <div class="item">
+                    <img class="img img-responsive" src="images/EngranesArreglada.png" alt="...">
                 </div>
             </div>
 
