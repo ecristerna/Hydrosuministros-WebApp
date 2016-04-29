@@ -45,7 +45,7 @@ include_once('elements/header.php');
                     <input id="Imagen" name="Imagen" type="file" class="file">
                     <br/>
                     <label for="comment">Descripción:</label>
-                    <textarea class="form-control" rows="5" id="comment"></textarea>
+                    <textarea class="form-control" rows="5" name="comment" id="comment"></textarea>
                 </div>
                 <button type="submit" class="btn btn-default">Enviar</button>
             </form>
