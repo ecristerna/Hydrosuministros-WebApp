@@ -20,9 +20,7 @@ include_once('elements/header.php');
         <hr>
 
         <div class="col-md-12">
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porttitor orci dui, a eleifend metus consectetur nec. Nullam purus elit, malesuada sed sagittis sit amet, mollis sed justo. Morbi ante lectus, pretium vel accumsan ut, lobortis non mi. Donec faucibus euismod enim at rhoncus. In vehicula sodales egestas. Aenean lobortis, erat eu condimentum iaculis, nunc odio molestie turpis, ut tristique mi arcu et metus. Morbi facilisis risus ut euismod finibus.
-            </p>
+
             <form action="/services/repairService.php" method="post" enctype="multipart/form-data">
                 <div class="form-group">
                     <div class="row">

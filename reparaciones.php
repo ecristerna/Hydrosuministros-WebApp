@@ -23,10 +23,10 @@ include_once('elements/header.php');
                     <p class="text">
                         Hydrosuministros ofrece una amplia línea de refacciones para Bombas y Motores de Pistones, Paletas y Engranes que cumplen o exceden la especificación OEM. Esto incluye a fabricantes como Kawasaki®, Rexroth®, Sundstrand®, Linde®, Vickers® y Denison®. Tambien almacenamos partes de reemplazo OEM para varios fabricantes importantes: Kawasaki®, Rexroth®, Sundstrand®, Linde®, Vickers, Denison®, Eaton® y muchos más.
                     </p>
-                    <button type="button" class="btn btn-default repBtn" onclick="location.href='formulario_reparaciones.php';">Envíenos su solicitud de reparación</button>
-                </div>
+                    <button type="button" class="btn btn-default repBtn salto" onclick="location.href='formulario_reparaciones.php';">Envíenos su solicitud de reparación</button>
+            </div>
             <div class="col-md-3">
-                <img class="img img-responsive siteimages" src="images/reemplazos.jpg" >
+                <img class="img img-responsive siteimages" src="images/reparacionesArreglada.png" >
             </div>
           </div>
 
@@ -80,7 +80,7 @@ include_once('elements/header.php');
                     <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion_two" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                         <div class="panel-heading" role="tab" id="headingTwo">
                             <h4 class="panel-title">
-                                Proportional Valves
+                                Válvulas Proporcionales
                             </h4>
                         </div>
                     </a>
