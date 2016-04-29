@@ -8,6 +8,8 @@
 
 header('Content-type: application/json');
 
+ob_start();
+
 require "../PHPMailer-master/PHPMailerAutoload.php";
 
 $nombre = $_POST["Nombre"];
@@ -34,7 +36,6 @@ $mail->Subject = "Solicitud de Reparación";
 
 // image upload handler
 $target_dir = "../images/";
-echo basename($_FILES["Imagen"]["name"]);
 $target_file = $target_dir . basename($_FILES["Imagen"]["name"]);
 $uploadOk = 1;
 $imageFileType = pathinfo($target_file, PATHINFO_EXTENSION);
@@ -45,7 +46,6 @@ if(isset($_POST["submit"])) {
     if($check !== false) {
         $uploadOk = 1;
     } else {
-        echo "File is not an image.";
         $uploadOk = 0;
     }
 }
@@ -56,12 +56,6 @@ if($imageFileType != "jpg" && $imageFileType != "png" && $imageFileType != "jpeg
 }
 
 if ($uploadOk == 1) {
-    if (move_uploaded_file($_FILES["Imagen"]["tmp_name"], $target_file)) {
-        echo "The file ". basename( $_FILES["Imagen"]["name"]). " has been uploaded.";
-    } else {
-        echo "Sorry, there was an error uploading your file.";
-    }
-
     $mail->AddEmbeddedImage($target_file, "my-attach", $target_file);
 
     $mail->Body    = "Nombre: " . $nombre . "<br>" . "Empresa: " . $empresa . "<br>" .  "Telefono: " . $telefono . "<br>" .
@@ -81,9 +75,8 @@ if(!$mail->send()) {
     header('HTTP/1.1 406 User not found');
     die(json_encode(array('message' => 'ERROR', 'code' => 1337)));
 } else {
-    echo json_encode("Message has been sent");
+    header("Location: ../reparaciones.php");
 }
 
-header("Location: ../formulario_reparaciones.php");
 die();
 ?>
