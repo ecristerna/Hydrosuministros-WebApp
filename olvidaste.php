@@ -17,16 +17,16 @@ include_once('elements/header.php');
 
     <div class="col-md-12">
         <div class="row text-center">
-            <h1>Recuperar password</h1>
+            <h3>Enviaremos tu password a tu direccion de correo</h3>
         </div>
 
         <div class="col-md-6 col-md-offset-3">
-            <form method = 'POST'>
+            <form method = 'POST' action="services/recoverService.php">
                 <div class="form-group">
                     <input type="email" class="form-control" id="email" name="email" placeholder="Correo" required>
                 </div>
                 <div class="form-group">
-                    <button type="submit" class="btn btn-default btn-block center-block" id="lb">Iniciar sesión</button>
+                    <button type="submit" class="btn btn-default btn-block center-block" id="lb">Enviar correo</button>
                 </div>
 
             </form>
