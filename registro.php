@@ -67,9 +67,8 @@ include_once('elements/header.php');
                     </div>
                 </form>
             </div>
-
+            <strong><p id="feedback" class="text-success"></p></strong>
         </div>
-
     </div>
 
     <script type="text/javascript">
@@ -90,7 +89,17 @@ include_once('elements/header.php');
                 data: parameters,
                 headers: {'Content-Type': 'application/x-www-form-urlencoded'},
                 success: function(jsonData) {
-                    window.location.replace("envioderegistro.php");
+                    $("#nombre").prop('disabled', true);
+                    $("#empresa").prop('disabled', true);
+                    $("#puesto").prop('disabled', true);
+                    $("#telefono").prop('disabled', true);
+                    $("#email").prop('disabled', true);
+                    $("#anuncio").prop('disabled', true);
+                    $("#internet").prop('disabled', true);
+                    $("#recomendacion").prop('disabled', true);
+                    $("#otra").prop('disabled', true);
+                    $("#sendEmailButton").prop('disabled', true);
+                    $("#feedback").text("Su solicitud de registro ha sido recibida. Pronto nos contactaremos con usted");
                 },
                 error: function(message) {
                     alert("Error en la conexion");

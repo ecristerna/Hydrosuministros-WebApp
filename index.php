@@ -25,15 +25,9 @@ include_once('elements/header.php');
             <div class="carousel-inner" role="listbox">
                 <div class="item active">
                     <img class="img img-responsive" src="images/pump.jpeg" alt="...">
-                    <div class="carousel-caption">
-                        <h3>Hello</h3>
-                    </div>
                 </div>
                 <div class="item">
                     <img class="img img-responsive" src="images/motor.jpeg" alt="...">
-                    <div class="carousel-caption">
-                        <h3>World!</h3>
-                    </div>
                 </div>
             </div>
 
@@ -52,29 +46,32 @@ include_once('elements/header.php');
             <h1>Hydrosuministros Inteligentes S.A. de C.V.</h1>
             <h4> LA SOLUCIÓN INTELIGENTE A SUS NECESIDADES DE HIDRÁULICA INDUSTRIAL O MÓVIL </h4>
             <hr>
-            <p class="indextext">
-                Hydrosuministros Inteligentes S.A. de C.V. es una empresa distribuidora de Hydraulex Global, líder en el suministro y reparación de  bombas, motores, válvulas y cilindros para Aplicaciones Hidráulicas Industriales. Durante más de 5 años hemos ofrecido al mercado industrial mexicano servicios confiables y una amplia gama de productos nuevos y remanufacturados de las marcas más reconocidas en el mercado hidráulico con grandes valores agregados.
+            <p class="text">
+                Es una empresa Mexicana líder en el suministro y reparación de Bombas, Motores y Válvulas (Hidráulicas, Proporcionales y Servos) orientados para aplicaciones de Industriales. Durante más de 9 años hemos ofrecido a al mercado Mexicano servicios confiables y una amplia gama de productos Nuevos Originales, Remanufacturados, Nuevos (Genéricos) de las marcas más reconocidas en la Industria con un valor agregado basado en tiempos de entrega cortos.
+            </p>
+            <p class="text">
+                Representamos en México a HYDRAULEX GLOBAL ofreciendo su amplia gama de productos y servicios.
             </p>
                 <div class="row indexfeatures">
                     <div class="col-md-3 indexcolumns">
                         <img class="img img-responsive indeximages" src="images/11warranty.png">
                         <h4>Excelente fiabilidad</h4>
-                        <p>Es tal la confianza en la calidad de nuestros productos que ofrecemos 18 meses de garantía desde la compra y 12 meses de garantía de instalación.  </p>
+                        <p class="text"> Es tal la confianza en la calidad de nuestros productos que ofrecemos 18 meses de garantía desde la compra y 12 meses de garantía de instalación.  </p>
                     </div>
                     <div class="col-md-3 indexcolumns">
                         <img class="img img-responsive indeximages" src="images/22quickship.png">
                         <h4>Disponibilidad inmediata</h4>
-                        <p>Dado nuestro extenso inventario, podemos asegurar que tenemos las partes y refacciones que solicita y que está disponible para ser enviada garantizando un tiempo de entrega casi inmediato. </p>
+                        <p class="text">Contamos con un inventario amplio de Equipo Estándar que garantiza un tiempo de entrega adecuado a sus necesidades. </p>
                     </div>
                     <div class="col-md-3 indexcolumns">
                         <img class="img img-responsive indeximages" src="images/33reman.png" >
                         <h4>Calidad de remanufactura</h4>
-                        <p>Tenemos un amplio inventario de bombas, motores, cilindros y partes  remanufacturadas, totalmente probadas y construidas en cumpliemiento de la especificación OEM (Original Equipment Manufacturer).</p>
+                        <p class="text">Tenemos la posibilidad de proveer Bombas, Motores y Válvulas Hidráulicas Remanufacturadas para que usted cuente con el respaldo del equipo originalmente instalado en su maquinaría.</p>
                     </div>
                     <div class="col-md-3 indexcolumns">
                         <img class="img img-responsive indeximages" src="images/44repair.png">
                         <h4>Reparación de primera clase</h4>
-                        <p>Tenemos la experiencia y el conocimiento para reparar y reconstruir componentes y cilindros encontrados en varias aplicaciones hidráulicas. Incluyendo bombas, motores, válvulas, servo/válvulas proporcionales entre otras.</p>
+                        <p class="text">Experiencia y conocimiento para reparar y reconstruir componentes hidráulicos tales como Bombas, Motores, Válvulas Hidráulicas y Proporcionales. Ofrecemos reparaciones certificadas con reportes de prueba de los componentes.</p>
                     </div>
                 </div>
         </div>

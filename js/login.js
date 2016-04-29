@@ -20,8 +20,7 @@ $( document ).on('ready', function() {
                 window.location.href = "index.php";
             },
             error: function(errorMsg){
-                console.log(errorMsg);
-                alert(errorMsg);
+                alert("Error al iniciar sesión. Inténtelo nuevamente.");
             }
         });
     });

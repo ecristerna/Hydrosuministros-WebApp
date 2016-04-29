@@ -28,7 +28,7 @@
             echo $counterVal;
             ?>
             </p>
-            <p class="navbar-text navbar-right">Tel: (81) 1234 2678&nbsp;&nbsp;&nbsp;&nbsp;Correo: ventas@hydrosumint.mx</p>
+            <p class="navbar-text navbar-right">Tel: 811 812 9040 y 557 110 4528 &nbsp;&nbsp;&nbsp;&nbsp;Correo: info@hydrosumint.mx</p>
         </div>
     </nav>
 </footer>

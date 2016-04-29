@@ -20,9 +20,7 @@ include_once('elements/header.php');
         <hr>
 
         <div class="col-md-12">
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porttitor orci dui, a eleifend metus consectetur nec. Nullam purus elit, malesuada sed sagittis sit amet, mollis sed justo. Morbi ante lectus, pretium vel accumsan ut, lobortis non mi. Donec faucibus euismod enim at rhoncus. In vehicula sodales egestas. Aenean lobortis, erat eu condimentum iaculis, nunc odio molestie turpis, ut tristique mi arcu et metus. Morbi facilisis risus ut euismod finibus.
-            </p>
+
             <form action="/services/repairService.php" method="post" enctype="multipart/form-data">
                 <div class="form-group">
                     <div class="row">
@@ -44,10 +42,10 @@ include_once('elements/header.php');
                     </div>
 
                     <label class="control-label">Imagen de la pieza:</label>
-                    <input id="Imagen" type="file" class="file">
+                    <input id="Imagen" name="Imagen" type="file" class="file">
                     <br/>
                     <label for="comment">Descripción:</label>
-                    <textarea class="form-control" rows="5" id="comment"></textarea>
+                    <textarea class="form-control" rows="5" name="comment" id="comment"></textarea>
                 </div>
                 <button type="submit" class="btn btn-default">Enviar</button>
             </form>
