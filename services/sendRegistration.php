@@ -19,11 +19,12 @@ $mail->Host = "localhost";
 
 $mail->setFrom($email, $nombre);
 $mail->addAddress("ecristerna.94@gmail.com");     // Add a recipient
+// info@hydrosumint.mx
 
 $mail->isHTML(true);                                  // Set email format to HTML
 
 $mail->Subject = "Registro a sitio web";
-$mail->Body    = "Nombre: " . $nombre . "\n" . "Empresa: " . $empresa . "\n" . "Puesto: " . $puesto . "\n" . "Telefono: " . $telefono;
+$mail->Body    = "Nombre: " . $nombre . "<br>" . "Empresa: " . $empresa . "<br>" . "Puesto: " . $puesto . "<br>" . "Telefono: " . $telefono;
 $mail->AltBody = "Nombre: " . $nombre . "\n" . "Empresa: " . $empresa . "\n" . "Puesto: " . $puesto . "\n" . "Telefono: " . $telefono;
 
 if(!$mail->send()) {

@@ -84,4 +84,27 @@ function getAllProducts() {
     }
 }
 
+function getPasswordByEmail($email){
+    $conn = connect();
+    if ($conn != null) {
+        $sql = "SELECT password FROM user WHERE email = '$email'";
+        $result = $conn->query($sql);
+
+        if ($result->num_rows > 0) {
+            $row = $result->fetch_assoc();
+            $response = array('message' => 'OK', 'password' => $row['password']);
+            $conn->close();
+            return $response;
+        }
+        else {
+            $conn->close();
+            return errors(406);
+        }
+    }
+    else {
+        $conn->close();
+        return errors(500);
+    }
+}
+
 ?>
