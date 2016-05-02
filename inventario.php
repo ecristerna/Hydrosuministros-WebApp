@@ -14,7 +14,7 @@ if(!isset($_SESSION["username"])) {
     <script type="text/javascript">
         $('#inventory-nav').addClass("active");
     </script>
-<!-- <script src="js/products.js" type="text/javascript"></script> -->
+    <script src="js/products.js" type="text/javascript"></script>
     <body>
 
     <div class="container-fluid">
@@ -39,12 +39,6 @@ if(!isset($_SESSION["username"])) {
                 </thead>
 
                 <tbody id="tableProductsBody">
-                <tr>
-                    <td>ID</td>
-                    <td>Nombre</td>
-                    <td>Imagen</td>
-                    <td>Descripcion</td>
-                </tr>
                 </tbody>
             </table>
         </div>
@@ -52,7 +46,6 @@ if(!isset($_SESSION["username"])) {
     </div>
 
     </body>
-
 <?php
 include_once('elements/footer.php');
 ?>
