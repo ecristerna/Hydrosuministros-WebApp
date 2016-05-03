@@ -17,4 +17,3 @@ CREATE TABLE inventario (
   img VARCHAR(30),
   descripcion TEXT
 );
-
