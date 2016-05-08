@@ -28,7 +28,7 @@ include_once('elements/header.php');
                     <div class="form-group">
                         <button type="submit" class="btn btn-default btn-block center-block" id="lb">Iniciar sesión</button>
                     </div>
-
+                    <a href="olvidaste.php">Recuperar password</a>
                 </form>
             </div>
 

@@ -1,8 +1,9 @@
 <?php
 	header('Content-type: application/json');
-	require_once __DIR__ . '/dbServices.php';
+	require_once __DIR__ . '/dbService.php';
+
 	session_start();
-	if ( isset($_SESSION["username"])){
+	if (isset($_SESSION["username"])) {
 		$result = getAllProducts();
 		if ($result['message'] == 'OK') {
 			echo json_encode($result);

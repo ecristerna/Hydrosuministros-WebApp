@@ -7,9 +7,9 @@
  */
 function connect() {
     $servername = "localhost";
-    $username = "root";
-    $password = "";
-    $dbname = "DBNAME";
+    $username = "hydrosu1_admin";
+    $password = "hydrosu1Admin";
+    $dbname = "hydrosu1_INVENTARIO";
 
     $connection = new mysqli($servername, $username, $password, $dbname);
 
@@ -65,20 +65,34 @@ function login($email, $password){
     }
 }
 
-function getAllProducts(){
+function getAllProducts() {
     $conn = connect();
     if ($conn != null) {
-        $sql = "SELECT admProductos.CCODIGOPRODUCTO, admProductos.CNOMBREPRODUCTO,
-	                  admProductos.CDESCRIPCIONPRODUCTO, admProductosFotos.CFOTOPRODUCTO
-                FROM admProductos, admProductosFotos
-                WHERE admProductos.CIDFOTOPRODUCTO = admProductosFotos.CIDFOTOPRODUCTO";
+        $sql = "SELECT * FROM inventario";
+        $result = $conn->query($sql);
+
+        $response = array("message" => "OK");
+        while ($row = $result->fetch_assoc()) {
+            $response[] = $row;
+        }
+        $conn->close();
+        return $response;
+    }
+    else {
+        $conn->close();
+        return errors(500);
+    }
+}
+
+function getPasswordByEmail($email){
+    $conn = connect();
+    if ($conn != null) {
+        $sql = "SELECT password FROM user WHERE email = '$email'";
         $result = $conn->query($sql);
 
         if ($result->num_rows > 0) {
-            $response = array("message" => "OK");
-            while($row = $result->fetch_assoc()) {
-                $response[] = $row;
-            }
+            $row = $result->fetch_assoc();
+            $response = array('message' => 'OK', 'password' => $row['password']);
             $conn->close();
             return $response;
         }
