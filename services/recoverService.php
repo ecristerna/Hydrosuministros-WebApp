@@ -39,4 +39,7 @@ $mail->Subject = "Recupera tu passsword";
 $mail->Body    = "Tu password es : " . $password;
 $mail->AltBody = "Tu password es : " . $password;
 
+header("Location: ../reparaciones.php");
+die();
+
 ?>
