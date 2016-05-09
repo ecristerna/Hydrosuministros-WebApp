@@ -7,9 +7,9 @@
  */
 function connect() {
     $servername = "localhost";
-    $username = "root";
-    $password = "";
-    $dbname = "dbname";
+    $username = "hydrosu1_admin";
+    $password = "hydrosu1Admin";
+    $dbname = "hydrosu1_INVENTARIO";
 
     $connection = new mysqli($servername, $username, $password, $dbname);
 

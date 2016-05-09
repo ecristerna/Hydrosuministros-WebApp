@@ -17,7 +17,14 @@ include_once('elements/header.php');
             <h2>Información acerca de la empresa</h2>
             <hr>
             <p class = "text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porttitor orci dui, a eleifend metus consectetur nec. Nullam purus elit, malesuada sed sagittis sit amet, mollis sed justo. Morbi ante lectus, pretium vel accumsan ut, lobortis non mi. Donec faucibus euismod enim at rhoncus. In vehicula sodales egestas. Aenean lobortis, erat eu condimentum iaculis, nunc odio molestie turpis, ut tristique mi arcu et metus. Morbi facilisis risus ut euismod finibus. Fusce facilisis felis in orci dictum, id malesuada nulla facilisis. Etiam dolor purus, ultrices ac rutrum nec, condimentum blandit magna. Integer non convallis nibh. Maecenas molestie ligula non dui efficitur, nec lobortis orci faucibus. Nullam maximus nulla quam. Pellentesque a facilisis sapien. Nam at massa diam.
+                Hydrosuministros Inteligentes S.A. de C.V. es una empresa Mexicana líder en el suministro y reparación de Bombas,
+                Motores y Válvulas (Hidráulicas, Proporcionales y Servos) orientados para aplicaciones de Industriales.
+                Durante más de 9 años hemos ofrecido a al mercado Mexicano servicios confiables y una amplia gama de productos
+                Nuevos Originales, Remanufacturados, Nuevos (Genéricos) de las marcas más reconocidas en la Industria
+                con un valor agregado basado en tiempos de entrega cortos.
+            </p>
+            <p class="text">
+                Representamos en México a HYDRAULEX GLOBAL ofreciendo su amplia gama de productos y servicios.
             </p>
             <h2>Misión</h2>
             <hr>

@@ -12,6 +12,7 @@ $( document ).on('ready', function() {
             delete jsonData.message;
             $.each(jsonData, function(i, e) {
                 // prepare the html content to be added
+                console.log(jsonData);
                 var content = "<tr> <td>" + e['id'] + "</td> "
                     + " <td>" + e['name'] + "</td> "
                     + ' <td><img src="images/' + e['img'] + '"></td> "'
@@ -28,7 +29,6 @@ $( document ).on('ready', function() {
     });
 
 });
-
 
 function loadDataTables() {
     $('#tableProducts').DataTable();

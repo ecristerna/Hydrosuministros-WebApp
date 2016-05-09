@@ -8,7 +8,7 @@
 
 header('Content-type: application/json');
 
-ob_start();
+// ob_start();
 
 require "../PHPMailer-master/PHPMailerAutoload.php";
 
@@ -32,11 +32,13 @@ $mail->addAddress("ecristerna@icloud.com");     // Add a recipient
 
 $mail->isHTML(true);                                  // Set email format to HTML
 
-$mail->Subject = "Solicitud de Reparación";
+$mail->Subject = "Solicitud de Reparacion";
 
 // image upload handler
 $target_dir = "../images/";
 $target_file = $target_dir . basename($_FILES["Imagen"]["name"]);
+echo $target_dir;
+echo basename($_FILES["Imagen"]["name"]);
 $uploadOk = 1;
 $imageFileType = pathinfo($target_file, PATHINFO_EXTENSION);
 // Check if image file is a actual image or fake image
