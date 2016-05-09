@@ -39,7 +39,13 @@ $mail->Subject = "Recupera tu passsword";
 $mail->Body    = "Tu password es : " . $password;
 $mail->AltBody = "Tu password es : " . $password;
 
-header("Location: ../reparaciones.php");
-die();
+//header("Location: ../reparaciones.php");
+if(!$mail->send()) {
+    header('HTTP/1.1 406 User not found');
+    die(json_encode(array('message' => 'ERROR', 'code' => 1337)));
+} else {
+    echo json_encode("Message has been sent");
+}
+//die();
 
 ?>
