@@ -19,6 +19,7 @@ $( document ).on('ready', function() {
                 var tableBody = $("#tableProductsBody");
                 tableBody.append(content);
             });
+            loadDataTables();
         },
         error: function(errorMsg){
             //alert("ERROR");
@@ -27,3 +28,8 @@ $( document ).on('ready', function() {
     });
 
 });
+
+
+function loadDataTables() {
+    $('#tableProducts').DataTable();
+}
