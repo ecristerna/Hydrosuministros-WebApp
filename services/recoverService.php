@@ -28,7 +28,7 @@ $mail->IsSMTP(); //send via SMTP
 
 $mail->Host = "localhost";
 
-$mail->setFrom("ecristerna.94@gmail.com"); // info@hydrosumint.mx
+$mail->setFrom("ecristerna.94@gmail.com","Hydrouministros Inteligentes"); // info@hydrosumint.mx
 
 $mail->addAddress($mail);     // Add a recipient
 
