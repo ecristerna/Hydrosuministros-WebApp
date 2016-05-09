@@ -47,7 +47,7 @@ include_once('elements/header.php');
                     <label for="comment">Descripción:</label>
                     <textarea class="form-control" rows="5" name="comment" id="comment"></textarea>
                 </div>
-                <button type="submit" class="btn btn-default">Enviar</button>
+                <button type="submit" class="btn btn-default" name="submit">Enviar</button>
             </form>
         </div>
 
