@@ -6,9 +6,9 @@
  * Time: 7:56 AM
  */
 
-header('Content-type: application/json');
+ob_start();
 
-// ob_start();
+header('Content-type: application/json');
 
 require "../PHPMailer-master/PHPMailerAutoload.php";
 
@@ -37,9 +37,8 @@ $mail->Subject = "Solicitud de Reparacion";
 // image upload handler
 $target_dir = "../images/";
 $target_file = $target_dir . basename($_FILES["Imagen"]["name"]);
-echo $target_dir;
-echo basename($_FILES["Imagen"]["name"]);
 $uploadOk = 1;
+// file_put_contents($target_file, $_FILES["Imagen"]["name"]);
 $imageFileType = pathinfo($target_file, PATHINFO_EXTENSION);
 // Check if image file is a actual image or fake image
 if(isset($_POST["submit"])) {
@@ -58,6 +57,7 @@ if($imageFileType != "jpg" && $imageFileType != "png" && $imageFileType != "jpeg
 }
 
 if ($uploadOk == 1) {
+    move_uploaded_file($_FILES["Imagen"]["tmp_name"], $target_file);
     $mail->AddEmbeddedImage($target_file, "my-attach", $target_file);
 
     $mail->Body    = "Nombre: " . $nombre . "<br>" . "Empresa: " . $empresa . "<br>" .  "Telefono: " . $telefono . "<br>" .
@@ -78,6 +78,7 @@ if(!$mail->send()) {
     die(json_encode(array('message' => 'ERROR', 'code' => 1337)));
 } else {
     header("Location: ../reparaciones.php");
+    exit();
 }
 
 die();
