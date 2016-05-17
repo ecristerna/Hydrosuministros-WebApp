@@ -14,9 +14,10 @@ $( document ).on('ready', function() {
                 // prepare the html content to be added
                 console.log(jsonData);
                 var content = "<tr> <td>" + e['id'] + "</td> "
-                    + " <td>" + e['name'] + "</td> "
-                    + ' <td><img src="images/' + e['img'] + '"></td> "'
-                    + " <td>" + e['descripcion'] + "</td> </tr>";
+                    + " <td>" + e['item'] + "</td> "
+                    + ' <td><img src="images/' + e['imagen'] + '"></td> "'
+                    + " <td>" + e['descripcion'] + "</td> "
+                    + " <td>" + e['quantity'] + "</td> </tr>";
                 var tableBody = $("#tableProductsBody");
                 tableBody.append(content);
             });
