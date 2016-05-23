@@ -16,7 +16,7 @@ $email = $_POST["email"];
 $result = getPasswordByEmail($email);
 $password = "";
 
-$emailFrom = "proyecto.dawad2015@gmail.com";
+$emailFrom = "ventasmty@hydrosumint.mx"";
 $nameFrom = "Hydrouministros Inteligentes";
 
 if ($result['message'] == 'OK') {

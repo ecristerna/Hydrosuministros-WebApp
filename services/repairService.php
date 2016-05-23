@@ -22,13 +22,13 @@ $mail = new PHPMailer;
 
 $mail->SMTPDebug = 3;                               // Enable verbose debug output
 
-$mail->IsSMTP(); //send via SMTP
+// $mail->IsSMTP(); //send via SMTP
 // info@hydrosumint.mx
 
 $mail->Host = "localhost";
 
 $mail->setFrom($email, $nombre);
-$mail->addAddress("ecristerna@icloud.com");     // Add a recipient
+$mail->addAddress("ventasmty@hydrosumint.mx");     // Add a recipient
 
 $mail->isHTML(true);                                  // Set email format to HTML
 

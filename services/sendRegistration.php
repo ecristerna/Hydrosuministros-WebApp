@@ -11,14 +11,14 @@ require "../PHPMailer-master/PHPMailerAutoload.php";
 
 $mail = new PHPMailer;
 
-$mail->SMTPDebug = 3; // Enable verbose debug output
+// $mail->SMTPDebug = 3; // Enable verbose debug output
 
-$mail->IsSMTP(); //send via SMTP
+// $mail->IsSMTP(); //send via SMTP
 
 $mail->Host = "localhost";
 
 $mail->setFrom($email, $nombre);
-$mail->addAddress("ecristerna.94@gmail.com");     // Add a recipient
+$mail->addAddress("ventasmty@hydrosumint.mx");     // Add a recipient
 // info@hydrosumint.mx
 
 $mail->isHTML(true);                                  // Set email format to HTML
