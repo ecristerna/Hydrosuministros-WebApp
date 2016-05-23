@@ -30,9 +30,9 @@ require "../PHPMailer-master/PHPMailerAutoload.php";
 
 $mail = new PHPMailer;
 
-$mail->SMTPDebug = 3;                               // Enable verbose debug output
+// $mail->SMTPDebug = 3;                               // Enable verbose debug output
 
-$mail->IsSMTP(); //send via SMTP
+// $mail->IsSMTP(); //send via SMTP
 
 $mail->Host = "localhost";
 

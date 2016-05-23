@@ -19,7 +19,6 @@ $mail->Host = "localhost";
 
 $mail->setFrom($email, $nombre);
 $mail->addAddress("ventasmty@hydrosumint.mx");     // Add a recipient
-// info@hydrosumint.mx
 
 $mail->isHTML(true);                                  // Set email format to HTML
 
