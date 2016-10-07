@@ -31,7 +31,7 @@ if(!isset($_SESSION["username"])) {
             <table class="table table-striped" id="tableProducts">
                 <thead>
                 <tr>
-                    <th>ID</th>
+                    <th>SKU</th>
                     <th>Nombre</th>
                     <th>Imagen</th>
                     <th>Descripcion</th>

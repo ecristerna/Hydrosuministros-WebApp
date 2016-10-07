@@ -71,12 +71,14 @@ function getAllProducts() {
         $sql = "SELECT * FROM inventario";
         $result = $conn->query($sql);
 
-        $response = array("message" => "OK");
+        $results = array();
+
         while ($row = $result->fetch_assoc()) {
-            $response[] = $row;
+            $results[] = $row;
         }
         $conn->close();
-        return $response;
+        
+        return $response = array("message" => "OK", "results" => $results);
     }
     else {
         $conn->close();
